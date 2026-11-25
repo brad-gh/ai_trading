@@ -1,0 +1,344 @@
+<title>AI Crash Hedge Backtest</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~72ch) with full-width data panels; summary first, method + caveats last. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #161a21; --ink-2: #545d6b; --ink-3: #8a93a1;
+  --rule: #dfe3e9; --grid: #eceff3; --accent: #0f5e78; --accent-soft: #e3eef2;
+  --pos: #257de0; --pos-bg: rgba(37,125,224,.16); --neg: #d9483b; --neg-bg: rgba(217,72,59,.15);
+  --s1: #257de0; --s2: #f47230; --s3: #00b894; --s4: #f2a600; --band: rgba(217,72,59,.07);
+  --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12151a; --panel: #1a1e25; --ink: #e9ecf1; --ink-2: #a6afbd; --ink-3: #737d8c;
+  --rule: #2b313b; --grid: #232831; --accent: #5fb4cf; --accent-soft: #1c2d35;
+  --pos: #338ced; --pos-bg: rgba(51,140,237,.24); --neg: #eb6263; --neg-bg: rgba(235,98,99,.22);
+  --s1: #338ced; --s2: #e76624; --s3: #00a888; --s4: #d28e05; --band: rgba(235,98,99,.09); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12151a; --panel: #1a1e25; --ink: #e9ecf1; --ink-2: #a6afbd; --ink-3: #737d8c;
+  --rule: #2b313b; --grid: #232831; --accent: #5fb4cf; --accent-soft: #1c2d35;
+  --pos: #338ced; --pos-bg: rgba(51,140,237,.24); --neg: #eb6263; --neg-bg: rgba(235,98,99,.22);
+  --s1: #338ced; --s2: #e76624; --s3: #00a888; --s4: #d28e05; --band: rgba(235,98,99,.09); color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--f-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; }
+main { max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px; }
+.prose { max-width: 72ch; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; letter-spacing: -.01em; }
+h1 { font-size: clamp(28px, 5vw, 42px); font-weight: 800; line-height: 1.1; }
+h2 { font-size: 22px; font-weight: 700; }
+h3 { font-size: 16px; font-weight: 700; }
+p { margin: 0; }
+.stack { display: flex; flex-direction: column; gap: 14px; }
+.eyebrow { font: 500 12px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.meta { font: 400 12.5px/1.5 var(--f-mono); color: var(--ink-3); }
+.lede { font-size: 17px; color: var(--ink-2); max-width: 68ch; }
+.panel { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; min-width: 0; }
+.findings { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.finding { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; border-top: 3px solid var(--accent); background: var(--panel); border-radius: 0 0 8px 8px; }
+.finding .num { font: 700 26px/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+.finding .num.neg { color: var(--neg); } .finding .num.pos { color: var(--pos); }
+.finding p { font-size: 14px; color: var(--ink-2); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 14px 18px; border-radius: 0 8px 8px 0; font-size: 14.5px; }
+ul.tight { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+.seg button { font: 500 13px var(--f-body); background: transparent; color: var(--ink-2); border: 0; padding: 7px 12px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+.seg button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+select { font: 500 13px var(--f-body); color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 7px 10px; }
+.label-sm { font: 500 12px var(--f-mono); color: var(--ink-3); letter-spacing: .04em; text-transform: uppercase; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 9px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--grid); }
+th { font: 500 11.5px/1.3 var(--f-mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .03em; vertical-align: bottom; white-space: normal; min-width: 64px; }
+th:first-child, td:first-child { text-align: left; white-space: normal; min-width: 210px; }
+td.num { font-family: var(--f-mono); font-size: 12.5px; }
+tr.group td { font: 600 12px var(--f-body); color: var(--accent); padding-top: 14px; border-bottom: 1px solid var(--rule); text-transform: uppercase; letter-spacing: .05em; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.legend i.band { height: 10px; background: var(--band); border: 1px solid var(--neg); opacity: .7; }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { fill: var(--ink-3); font: 11px var(--f-mono); }
+.chart .endlab { fill: var(--ink-2); font: 500 11px var(--f-body); }
+.tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.12); min-width: 190px; z-index: 2; }
+.tip .d { font: 500 11.5px var(--f-mono); color: var(--ink-3); margin-bottom: 4px; }
+.tip .r { display: flex; justify-content: space-between; gap: 12px; }
+.tip .r b { font: 500 12px var(--f-mono); }
+.tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.two > * { min-width: 0; }
+.pill { display: inline-block; font: 500 11px var(--f-mono); padding: 2px 8px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); }
+.pill.warn { background: var(--neg-bg); color: var(--neg); }
+small, .fine { font-size: 12.5px; color: var(--ink-3); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<main>
+  <header class="stack">
+    <span class="eyebrow">Options backtest · AI-linked equities</span>
+    <h1>Does buying volatility pay when AI stocks crash?</h1>
+    <p class="lede">Seventeen option strategies on ten volatile AI names plus SMH and QQQ, rolled daily-marked from <span id="d-start"></span> to <span id="d-end"></span>. Each one was rerun from every possible roll-start day and under three implied-vol assumptions. The page ends with a stress test on today's actual option prices.</p>
+    <p class="meta" id="meta"></p>
+  </header>
+
+  <section class="stack">
+    <h2>Bottom line</h2>
+    <div class="findings">
+      <div class="finding"><span class="label-sm">Rolling puts, all the time</span><span class="num neg">−2% to −4.5% / yr</span>
+        <p>Spending 10% of capital per year on AI-basket puts lost 20–45% of the premium each year on average. Puts are insurance and carry an insurance premium.</p></div>
+      <div class="finding"><span class="label-sm">…but in a sudden crash</span><span class="num pos">+50%</span>
+        <p>The same 10%/yr budget in 20%-OTM, 3-month puts made about +50% on the whole portfolio during the COVID crash, while the stocks fell 35%.</p></div>
+      <div class="finding"><span class="label-sm">Slow bear markets</span><span class="num">≈ 0%</span>
+        <p>In the grinding 2022 sell-off the stocks fell 38%, and the same tail puts made under +1%. Each roll repriced at higher vol and the drops came too gradually.</p></div>
+      <div class="finding"><span class="label-sm">Today's entry price</span><span class="num neg">~2× normal</span>
+        <p>Implied vol is very elevated right now (SMH ~64%, QQQ ~33%). A hedge bought today needs a bigger, faster drop to pay than at any calm point in the sample.</p></div>
+    </div>
+    <div class="callout prose">Volatility by itself doesn't make option buyers money. On average, implied vol is priced above the vol that actually shows up, so a buyer profits only from a move bigger and faster than the market expects. For a cyber-shock thesis, the structures that fit are short-dated-to-3-month <b>tail puts or put spreads on SMH/QQQ</b>, sized as a budget you can lose entirely. The backtest's one cheap way to cut the cost was <b>buying only when implied vol is low</b>. That filter would not allow an entry today.</div>
+  </section>
+
+  <section class="stack">
+    <div class="stack prose">
+      <h2>Long-volatility strategies, AI basket</h2>
+      <p>Growth of $1 when 10% of capital per year goes to option premium and the rest sits in cash. Shaded bands are the five crash windows. Equal-weight across the ten AI names, averaged over every roll-start day.</p>
+    </div>
+    <div class="panel stack">
+      <div class="legend" id="lg-longvol"></div>
+      <div class="chart" id="ch-longvol"></div>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="stack prose">
+      <h2>Stock with option overlays, AI basket</h2>
+      <p>Fully invested in the stocks. Log scale. Buy-and-hold returned about 44% a year here, mostly because this list was picked in 2026 with hindsight. Read the overlays relative to it, not as forecasts.</p>
+    </div>
+    <div class="panel stack">
+      <div class="legend" id="lg-overlay"></div>
+      <div class="chart" id="ch-overlay"></div>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="stack prose">
+      <h2>Every strategy, every crash</h2>
+      <p>Annualised return, worst drawdown, correlation of daily returns with QQQ, and the portfolio return inside each crash window. Long-premium rows use the 10%/yr premium budget; short-vol rows are cash-secured and unlevered.</p>
+    </div>
+    <div class="panel stack">
+      <div class="controls"><span class="label-sm">Underlying</span>
+        <div class="seg" id="seg-univ" role="group" aria-label="Underlying">
+          <button type="button" data-v="ai" aria-pressed="true">AI basket (10 names)</button>
+          <button type="button" data-v="smh" aria-pressed="false">SMH</button>
+          <button type="button" data-v="qqq" aria-pressed="false">QQQ</button>
+        </div></div>
+      <div class="scroll"><table id="tb-main"></table></div>
+      <p class="fine">Cells shaded blue for gains, red for losses. Crash windows: COVID 19 Feb–23 Mar 2020; 2022 bear 19 Nov 2021–13 Oct 2022; AI unwind 10 Jul–7 Aug 2024; DeepSeek + tariffs 23 Jan–8 Apr 2025; current sell-off from the 90-day SMH high.</p>
+    </div>
+  </section>
+
+  <section class="two">
+    <div class="stack">
+      <h3>How much the answer depends on the vol assumption</h3>
+      <p class="fine">Median annualised return across the 12 underlyings with implied vol set 15% lower, as calibrated, and 15% higher. Long-premium results flip sign within this band, so treat small positive numbers as noise.</p>
+      <div class="panel scroll"><table id="tb-sens"></table></div>
+    </div>
+    <div class="stack">
+      <h3>Implied vol today: live market vs. the model</h3>
+      <p class="fine">30-day at-the-money IV from the option chain, against the backtest model's IV for the same day. The model is anchored to long-run history, so it reads higher than today's market. Realised vol in the past 20 days has been even higher (NVDA ~127%).</p>
+      <div class="panel scroll"><table id="tb-iv"></table></div>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="stack prose">
+      <h2>Annualised return by name</h2>
+      <p>Same strategies, one underlying at a time, base vol assumption. Short histories are noisy: ARM starts Sep 2023 and CRWV starts Mar 2025.</p>
+    </div>
+    <div class="panel scroll"><table id="tb-tick"></table></div>
+  </section>
+
+  <section class="stack">
+    <div class="stack prose">
+      <h2>If it crashes from here</h2>
+      <p>Today's real option prices: buy at the ask, sell at the bid. Each position is repriced 14 days later after an instant move in the stock, paying the spread again to exit. Implied vol rises 12% (relative) for every 10% drop and falls if nothing happens. Cells show return on premium paid: +3.00 means the position is worth four times its cost.</p>
+      <p id="src-note"></p>
+    </div>
+    <div class="panel stack">
+      <div class="controls">
+        <label class="label-sm" for="sel-tk">Underlying</label><select id="sel-tk"></select>
+        <span class="label-sm">Expiry</span><div class="seg" id="seg-dte" role="group" aria-label="Expiry"></div>
+      </div>
+      <div class="scroll"><table id="tb-scen"></table></div>
+    </div>
+  </section>
+
+  <section class="two">
+    <div class="stack prose">
+      <h2>How it was built</h2>
+      <ul class="tight">
+        <li><b>Prices</b>: daily split-adjusted closes, VIX and 13-week T-bill from Yahoo Finance, 2018 onward.</li>
+        <li><b>Option prices</b> are simulated with Black-Scholes, because free historical option chains don't exist. ATM implied vol = VIX × (stock's 120-day realised vol ÷ SPY's), scaled so implied variance averages 1.15× realised (1.35× for ETFs). That is the usual variance risk premium. Smile shape is fitted to today's chains.</li>
+        <li><b>Costs</b>: half bid/ask of 2–5% of the option price per leg, depending on liquidity, plus commission. Expiring options settle at intrinsic value.</li>
+        <li><b>Robustness</b>: each strategy was run from every roll-start offset (21 for monthly, 21 for quarterly in 3-day steps) and at three vol levels. That is <span id="nbt"></span> backtests in total.</li>
+        <li>Code and CSVs: <span class="pill">aibt/</span> <span class="pill">results/</span> in the repo.</li>
+      </ul>
+    </div>
+    <div class="stack prose">
+      <h2>What this can't tell you</h2>
+      <ul class="tight">
+        <li>No backtest can price a hypothetical cyber attack. Past crashes are stand-ins, and only the COVID crash was fast enough to resemble a sudden shock.</li>
+        <li>Simulated vol misses real-world details: earnings jumps, the skew steepening in a sell-off, and wider spreads in a panic.</li>
+        <li>The stock list is hindsight-picked AI winners. That inflates buy-and-hold, covered calls and short puts.</li>
+        <li>Anthropic isn't publicly traded and has no listed options. This tests a general AI-sector drawdown, not any one company.</li>
+        <li>This is research, not financial advice. Options can expire worthless, and short options can lose much more than the premium collected.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const pct = (v, d = 1) => v == null ? "—" : (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(d) + "%";
+const SER = ["--s1", "--s2", "--s3", "--s4"];
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+$("#d-start").textContent = new Date(D.start).toLocaleDateString("en-US", {month: "short", year: "numeric"});
+$("#d-end").textContent = new Date(D.end).toLocaleDateString("en-US", {month: "short", day: "numeric", year: "numeric"});
+$("#meta").textContent = `Data through ${D.end} · generated ${D.generated} · ${D.n_backtests.toLocaleString()} backtests`;
+$("#nbt").textContent = D.n_backtests.toLocaleString();
+
+function shade(v, scale) {
+  if (v == null) return "";
+  const a = Math.min(1, Math.abs(v) / scale);
+  const c = v >= 0 ? "var(--pos-bg)" : "var(--neg-bg)";
+  return `background: color-mix(in srgb, ${c} ${Math.round(25 + 75 * a)}%, transparent)`;
+}
+
+/* ---------- line chart ---------- */
+function lineChart(el, lg, series, {log = false, fmt}) {
+  const W = 1000, H = 380, m = {l: 52, r: 150, t: 12, b: 28};
+  const all = series.flatMap(s => s.pts.map(p => p[1]));
+  let lo = Math.min(...all), hi = Math.max(...all);
+  const tx = log ? Math.log : (x => x);
+  if (!log) { const pad = (hi - lo) * .06; lo -= pad; hi += pad; } else { lo *= .9; hi *= 1.1; }
+  const dates = series[0].pts.map(p => new Date(p[0]));
+  const t0 = +new Date(D.start), t1 = +new Date(D.end);
+  const X = t => m.l + (t - t0) / (t1 - t0) * (W - m.l - m.r);
+  const Y = v => m.t + (1 - (tx(v) - tx(lo)) / (tx(hi) - tx(lo))) * (H - m.t - m.b);
+  let ticks;
+  if (log) { ticks = []; for (const b of [0.5, 1, 2, 5, 10, 20, 50, 100]) if (b >= lo && b <= hi) ticks.push(b); }
+  else { const st = (hi - lo) > .5 ? .2 : .1; ticks = []; for (let v = Math.ceil(lo / st) * st; v <= hi; v += st) ticks.push(+v.toFixed(2)); }
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Growth of $1">`;
+  for (const [a, b] of Object.values(D.windows)) {
+    const x0 = X(+new Date(a)), x1 = Math.max(X(+new Date(b)), x0 + 3);
+    s += `<rect x="${x0}" y="${m.t}" width="${x1 - x0}" height="${H - m.t - m.b}" fill="var(--band)"/>`;
+  }
+  for (const v of ticks) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)" stroke-width="1"/><text x="${m.l - 8}" y="${Y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
+  if (!log && lo < 1 && hi > 1) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(1)}" y2="${Y(1)}" stroke="var(--ink-3)" stroke-width="1" stroke-dasharray="3 3"/>`;
+  for (let y = new Date(D.start).getFullYear() + 1; y <= new Date(D.end).getFullYear(); y++) {
+    const x = X(+new Date(`${y}-01-01`)); s += `<text x="${x}" y="${H - 8}" text-anchor="middle">${y}</text>`;
+  }
+  const ends = [];
+  series.forEach((se, i) => {
+    const d = se.pts.map((p, j) => `${j ? "L" : "M"}${X(+new Date(p[0])).toFixed(1)},${Y(p[1]).toFixed(1)}`).join("");
+    s += `<path d="${d}" fill="none" stroke="var(${SER[i]})" stroke-width="2" stroke-linejoin="round"/>`;
+    const last = se.pts[se.pts.length - 1]; ends.push({i, y: Y(last[1]), v: last[1], lab: se.short || se.label});
+  });
+  ends.sort((a, b) => a.y - b.y);
+  for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
+  for (const e of ends) s += `<circle cx="${W - m.r}" cy="${Y(series[e.i].pts.at(-1)[1])}" r="4" fill="var(${SER[e.i]})" stroke="var(--panel)" stroke-width="2"/><text class="endlab" x="${W - m.r + 10}" y="${e.y + 4}">${fmt(e.v)} · ${e.lab}</text>`;
+  s += `<line id="xh" x1="0" x2="0" y1="${m.t}" y2="${H - m.b}" stroke="var(--ink-3)" stroke-width="1" visibility="hidden"/>`;
+  s += `<rect x="${m.l}" y="${m.t}" width="${W - m.l - m.r}" height="${H - m.t - m.b}" fill="transparent" class="hit"/></svg><div class="tip" hidden></div>`;
+  el.innerHTML = s;
+  lg.innerHTML = series.map((se, i) => `<span><i style="background:var(${SER[i]})"></i>${se.label}</span>`).join("") + `<span><i class="band"></i>Crash window</span>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip"), xh = el.querySelector("#xh");
+  const move = ev => {
+    const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) / r.width * W;
+    const t = t0 + (px - m.l) / (W - m.l - m.r) * (t1 - t0);
+    let j = 0, best = 1e18; dates.forEach((d, k) => { const dd = Math.abs(d - t); if (dd < best) { best = dd; j = k; } });
+    const x = X(+dates[j]); xh.setAttribute("x1", x); xh.setAttribute("x2", x); xh.setAttribute("visibility", "visible");
+    tip.hidden = false;
+    tip.innerHTML = `<div class="d">${dates[j].toLocaleDateString("en-US", {day: "numeric", month: "short", year: "numeric"})}</div>` +
+      series.map((se, i) => { const p = se.pts[j]; return `<div class="r"><span><span class="sw" style="background:var(${SER[i]})"></span>${se.short || se.label}</span><b>${p ? fmt(p[1]) : "—"}</b></div>`; }).join("");
+    const left = (x / W) * r.width; tip.style.left = Math.min(left + 14, r.width - tip.offsetWidth - 4) + "px"; tip.style.top = "10px";
+  };
+  svg.querySelector(".hit").addEventListener("pointermove", move);
+  svg.addEventListener("pointerleave", () => { tip.hidden = true; xh.setAttribute("visibility", "hidden"); });
+}
+const shortNames = {put_90_3m: "10% OTM put 3M", put_80_3m: "20% OTM put 3M", put_90_3m_tp: "10% OTM put, TP", straddle_1m: "ATM straddle 1M",
+  stock: "Buy & hold", protective_put: "+ protective put", collar: "Collar", short_put_90_1m: "Short put 1M"};
+for (const s of [...D.longvol, ...D.overlay]) s.short = shortNames[s.key];
+const money = v => "$" + (v >= 10 ? v.toFixed(0) : v.toFixed(2));
+lineChart($("#ch-longvol"), $("#lg-longvol"), D.longvol, {fmt: money});
+lineChart($("#ch-overlay"), $("#lg-overlay"), D.overlay, {log: true, fmt: money});
+
+/* ---------- main table ---------- */
+const WN = Object.keys(D.windows);
+const WSHORT = WN.map(w => w.replace(/ \(.*\)/, "").replace("Current sell-off", "Now"));
+function renderMain(u) {
+  let h = `<thead><tr><th>Strategy</th><th>CAGR</th><th>Max DD</th><th>Corr. QQQ</th>${WSHORT.map(w => `<th>${w}</th>`).join("")}</tr></thead><tbody>`;
+  let g = "";
+  for (const r of D.rows) {
+    if (r.group !== g) { g = r.group; h += `<tr class="group"><td colspan="${4 + WN.length}">${g}</td></tr>`; }
+    const x = r[u];
+    h += `<tr><td>${r.label}</td><td class="num" style="${shade(x.cagr, .3)}">${pct(x.cagr)}</td><td class="num">${pct(x.max_dd, 0)}</td><td class="num">${x.corr_bench == null ? "—" : x.corr_bench.toFixed(2)}</td>` +
+      WN.map(w => `<td class="num" style="${shade(x.win[w], .3)}">${pct(x.win[w])}</td>`).join("") + `</tr>`;
+  }
+  $("#tb-main").innerHTML = h + "</tbody>";
+}
+function seg(el, cb) {
+  el.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+    el.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); cb(b.dataset.v); });
+}
+seg($("#seg-univ"), renderMain); renderMain("ai");
+
+/* ---------- sensitivity + iv ---------- */
+{
+  let h = `<thead><tr><th>Strategy</th><th>IV −15%</th><th>Base</th><th>IV +15%</th></tr></thead><tbody>`;
+  for (const r of D.rows) h += `<tr><td>${r.label}</td>${["0.85", "1.0", "1.15"].map(k => `<td class="num" style="${shade(r.sens[k], .3)}">${pct(r.sens[k])}</td>`).join("")}</tr>`;
+  $("#tb-sens").innerHTML = h + "</tbody>";
+  let g = `<thead><tr><th>Underlying</th><th>Live 30d ATM IV</th><th>Model IV today</th></tr></thead><tbody>`;
+  for (const r of D.ivtab) g += `<tr><td>${r.t}</td><td class="num">${(r.live * 100).toFixed(0)}%</td><td class="num">${(r.model * 100).toFixed(0)}%</td></tr>`;
+  $("#tb-iv").innerHTML = g + "</tbody>";
+}
+/* ---------- by ticker ---------- */
+{
+  let h = `<thead><tr><th>Strategy</th>${D.tickers.map(t => `<th>${t}</th>`).join("")}</tr></thead><tbody>`;
+  for (const r of D.tick_rows) h += `<tr><td>${r.label}</td>${D.tickers.map(t => `<td class="num" style="${shade(r.vals[t], .3)}">${pct(r.vals[t], 0)}</td>`).join("")}</tr>`;
+  $("#tb-tick").innerHTML = h + "</tbody>";
+}
+/* ---------- scenario ---------- */
+{
+  const tks = [...new Set(D.scen.map(s => s.ticker))];
+  const pref = ["SMH", "QQQ", "NVDA"].find(t => tks.includes(t)) || tks[0];
+  $("#sel-tk").innerHTML = tks.map(t => `<option value="${t}" ${t === pref ? "selected" : ""}>${t}</option>`).join("");
+  $("#src-note").innerHTML = D.quote_source === "last"
+    ? `<span class="pill warn">Last-trade prices</span> <small>Built overnight, when Yahoo shows no bid/ask, so costs use the previous session's last trades plus a 4% synthetic spread. The scheduled refresh after the open replaces these with live quotes.</small>`
+    : `<span class="pill">Live bid/ask</span> <small>Quotes pulled ${D.generated}.</small>`;
+  let dteSel = null;
+  function draw() {
+    const tk = $("#sel-tk").value, rows = D.scen.filter(s => s.ticker === tk);
+    const dtes = [...new Set(rows.map(r => r.dte))].sort((a, b) => a - b);
+    if (!dtes.includes(dteSel)) dteSel = dtes[0];
+    $("#seg-dte").innerHTML = dtes.map(d => `<button type="button" data-v="${d}" aria-pressed="${d === dteSel}">${d} days</button>`).join("");
+    const rr = rows.filter(r => r.dte === dteSel);
+    const keys = Object.keys(rr[0].rets);
+    let h = `<thead><tr><th>Structure (strikes)</th><th>Cost</th><th>% of spot</th><th>IV</th>${keys.map(k => `<th>Stock ${k.replace("+0%", "flat")}</th>`).join("")}</tr></thead><tbody>`;
+    for (const r of rr) h += `<tr><td>${r.structure} <small>(${r.strikes})</small></td><td class="num">$${r.cost.toFixed(2)}</td><td class="num">${(r.cost_pct * 100).toFixed(1)}%</td><td class="num">${r.iv}</td>` +
+      keys.map(k => { const v = r.rets[k]; return `<td class="num" style="${shade(v, 3)}">${(v >= 0 ? "+" : "−") + Math.abs(v).toFixed(2)}</td>`; }).join("") + `</tr>`;
+    $("#tb-scen").innerHTML = h + `</tbody>`;
+    $("#tb-scen").insertAdjacentHTML("beforeend", `<caption style="caption-side:bottom;text-align:left;padding-top:8px" class="fine">${tk} spot $${rr[0].spot.toFixed(2)}, expiry ${rr[0].expiry}. Values are return on premium after 14 days; −1.00 = total loss of premium.</caption>`);
+  }
+  $("#sel-tk").addEventListener("change", draw);
+  $("#seg-dte").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { dteSel = +b.dataset.v; draw(); } });
+  draw();
+}
+</script>

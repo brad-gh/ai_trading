@@ -1,0 +1,256 @@
+window,series,ret
+COVID crash (Feb–Mar 2020),put_atm_1m,0.03307941404413617
+COVID crash (Feb–Mar 2020),put_90_1m,0.0918334788472166
+COVID crash (Feb–Mar 2020),put_90_3m,0.14680081455928518
+COVID crash (Feb–Mar 2020),put_80_3m,0.49902703290115813
+COVID crash (Feb–Mar 2020),put_90_3m_tp,0.0681835757985545
+COVID crash (Feb–Mar 2020),put_90_3m_lowiv,0.029484526768964958
+COVID crash (Feb–Mar 2020),pspread_100_85_1m,0.02204776149289489
+COVID crash (Feb–Mar 2020),pspread_95_75_3m,0.06389977572279704
+COVID crash (Feb–Mar 2020),straddle_1m,0.005778389610728407
+COVID crash (Feb–Mar 2020),strangle_1m,0.02514552677875903
+COVID crash (Feb–Mar 2020),straddle_1m_lowiv,-0.00031133525581472643
+COVID crash (Feb–Mar 2020),short_put_90_1m,-0.14920354431716865
+COVID crash (Feb–Mar 2020),iron_condor_1m,-0.037701659450445346
+COVID crash (Feb–Mar 2020),stock,-0.3516525645449352
+COVID crash (Feb–Mar 2020),protective_put,-0.21949438601225724
+COVID crash (Feb–Mar 2020),collar,-0.11597231679051634
+COVID crash (Feb–Mar 2020),covered_call,-0.2893804705234506
+COVID crash (Feb–Mar 2020),SMH:put_atm_1m,0.04266955925906757
+COVID crash (Feb–Mar 2020),SMH:put_90_1m,0.09304049078229526
+COVID crash (Feb–Mar 2020),SMH:put_90_3m,0.21143505735902957
+COVID crash (Feb–Mar 2020),SMH:put_80_3m,0.5295072780129904
+COVID crash (Feb–Mar 2020),SMH:put_90_3m_tp,0.06132148276031302
+COVID crash (Feb–Mar 2020),SMH:put_90_3m_lowiv,0.020963958429752738
+COVID crash (Feb–Mar 2020),SMH:pspread_100_85_1m,0.030768110866871368
+COVID crash (Feb–Mar 2020),SMH:pspread_95_75_3m,0.10148226055321641
+COVID crash (Feb–Mar 2020),SMH:straddle_1m,0.011300361611365828
+COVID crash (Feb–Mar 2020),SMH:strangle_1m,0.04168217417865794
+COVID crash (Feb–Mar 2020),SMH:straddle_1m_lowiv,-0.0001010705212464158
+COVID crash (Feb–Mar 2020),SMH:short_put_90_1m,-0.12476599317853632
+COVID crash (Feb–Mar 2020),SMH:iron_condor_1m,-0.05943343891689645
+COVID crash (Feb–Mar 2020),SMH:stock,-0.3115927557653976
+COVID crash (Feb–Mar 2020),SMH:protective_put,-0.1684768604043625
+COVID crash (Feb–Mar 2020),SMH:collar,-0.14123978106476553
+COVID crash (Feb–Mar 2020),SMH:covered_call,-0.2858526102568809
+COVID crash (Feb–Mar 2020),QQQ:put_atm_1m,0.0608034952249481
+COVID crash (Feb–Mar 2020),QQQ:put_90_1m,0.3279890600997415
+COVID crash (Feb–Mar 2020),QQQ:put_90_3m,0.4175812384614581
+COVID crash (Feb–Mar 2020),QQQ:put_80_3m,1.1823730232781822
+COVID crash (Feb–Mar 2020),QQQ:put_90_3m_tp,0.08888582115881394
+COVID crash (Feb–Mar 2020),QQQ:put_90_3m_lowiv,0.054098734481320854
+COVID crash (Feb–Mar 2020),QQQ:pspread_100_85_1m,0.04647420529455837
+COVID crash (Feb–Mar 2020),QQQ:pspread_95_75_3m,0.16931877264967743
+COVID crash (Feb–Mar 2020),QQQ:straddle_1m,0.01772948652745132
+COVID crash (Feb–Mar 2020),QQQ:strangle_1m,0.20662573390934313
+COVID crash (Feb–Mar 2020),QQQ:straddle_1m_lowiv,0.001930676696866751
+COVID crash (Feb–Mar 2020),QQQ:short_put_90_1m,-0.1025469212803013
+COVID crash (Feb–Mar 2020),QQQ:iron_condor_1m,-0.06792693277125061
+COVID crash (Feb–Mar 2020),QQQ:stock,-0.27916586124608067
+COVID crash (Feb–Mar 2020),QQQ:protective_put,-0.1684917544920862
+COVID crash (Feb–Mar 2020),QQQ:collar,-0.15329397330106298
+COVID crash (Feb–Mar 2020),QQQ:covered_call,-0.2655079041488342
+2022 tech bear market,put_atm_1m,0.024059362215620217
+2022 tech bear market,put_90_1m,0.027039446905291697
+2022 tech bear market,put_90_3m,0.02394168291745702
+2022 tech bear market,put_80_3m,0.008573065788074485
+2022 tech bear market,put_90_3m_tp,0.03170123722349483
+2022 tech bear market,put_90_3m_lowiv,0.037108710638957376
+2022 tech bear market,pspread_100_85_1m,0.02843262085249587
+2022 tech bear market,pspread_95_75_3m,0.04171843722344604
+2022 tech bear market,straddle_1m,-0.006260922274484715
+2022 tech bear market,strangle_1m,-0.01014151230987359
+2022 tech bear market,straddle_1m_lowiv,0.006350103635599069
+2022 tech bear market,short_put_90_1m,-0.011712774732435038
+2022 tech bear market,iron_condor_1m,-0.0065820342787603625
+2022 tech bear market,stock,-0.3753240681342196
+2022 tech bear market,protective_put,-0.3265033776331987
+2022 tech bear market,collar,-0.19233386339068392
+2022 tech bear market,covered_call,-0.26282596045930895
+2022 tech bear market,SMH:put_atm_1m,0.024375328573591926
+2022 tech bear market,SMH:put_90_1m,-0.007669397270473222
+2022 tech bear market,SMH:put_90_3m,0.025765406361826892
+2022 tech bear market,SMH:put_80_3m,-0.014678530697039172
+2022 tech bear market,SMH:put_90_3m_tp,0.029906584559817873
+2022 tech bear market,SMH:put_90_3m_lowiv,0.04854942951734387
+2022 tech bear market,SMH:pspread_100_85_1m,0.04152089047957053
+2022 tech bear market,SMH:pspread_95_75_3m,0.05908098636404535
+2022 tech bear market,SMH:straddle_1m,-0.020550654975195926
+2022 tech bear market,SMH:strangle_1m,-0.046360036783894665
+2022 tech bear market,SMH:straddle_1m_lowiv,0.000823453749233316
+2022 tech bear market,SMH:short_put_90_1m,0.07903446531056857
+2022 tech bear market,SMH:iron_condor_1m,0.07538868347097338
+2022 tech bear market,SMH:stock,-0.4175893208763304
+2022 tech bear market,SMH:protective_put,-0.3894642794195249
+2022 tech bear market,SMH:collar,-0.28020121702503586
+2022 tech bear market,SMH:covered_call,-0.30461185645553124
+2022 tech bear market,QQQ:put_atm_1m,0.03864747510744437
+2022 tech bear market,QQQ:put_90_1m,-0.02292233802078747
+2022 tech bear market,QQQ:put_90_3m,0.02462865704257844
+2022 tech bear market,QQQ:put_80_3m,-0.0416639987482913
+2022 tech bear market,QQQ:put_90_3m_tp,0.05420912949138823
+2022 tech bear market,QQQ:put_90_3m_lowiv,0.03562402691632438
+2022 tech bear market,QQQ:pspread_100_85_1m,0.05455445476565024
+2022 tech bear market,QQQ:pspread_95_75_3m,0.07448376942636403
+2022 tech bear market,QQQ:straddle_1m,-0.011209885406785802
+2022 tech bear market,QQQ:strangle_1m,-0.041130105501078984
+2022 tech bear market,QQQ:straddle_1m_lowiv,-0.0004140148512331576
+2022 tech bear market,QQQ:short_put_90_1m,0.06723285950235813
+2022 tech bear market,QQQ:iron_condor_1m,0.04084882957546698
+2022 tech bear market,QQQ:stock,-0.33043044904317265
+2022 tech bear market,QQQ:protective_put,-0.3187629278228574
+2022 tech bear market,QQQ:collar,-0.2711140150117667
+2022 tech bear market,QQQ:covered_call,-0.28430551959749994
+AI unwind (Jul–Aug 2024),put_atm_1m,0.019516481826308274
+AI unwind (Jul–Aug 2024),put_90_1m,0.028429845214724248
+AI unwind (Jul–Aug 2024),put_90_3m,0.04591035131609389
+AI unwind (Jul–Aug 2024),put_80_3m,0.0699618730419489
+AI unwind (Jul–Aug 2024),put_90_3m_tp,0.04342512579786306
+AI unwind (Jul–Aug 2024),put_90_3m_lowiv,0.0016279694957812563
+AI unwind (Jul–Aug 2024),pspread_100_85_1m,0.013852102536235034
+AI unwind (Jul–Aug 2024),pspread_95_75_3m,0.023176060541512333
+AI unwind (Jul–Aug 2024),straddle_1m,0.0019902117025858423
+AI unwind (Jul–Aug 2024),strangle_1m,0.003957495598561511
+AI unwind (Jul–Aug 2024),straddle_1m_lowiv,-0.00025209367105361036
+AI unwind (Jul–Aug 2024),short_put_90_1m,-0.11420497924443496
+AI unwind (Jul–Aug 2024),iron_condor_1m,-0.026218121080502033
+AI unwind (Jul–Aug 2024),stock,-0.2806787065338763
+AI unwind (Jul–Aug 2024),protective_put,-0.16604431543040887
+AI unwind (Jul–Aug 2024),collar,-0.08360011712640536
+AI unwind (Jul–Aug 2024),covered_call,-0.22533389614308996
+AI unwind (Jul–Aug 2024),SMH:put_atm_1m,0.03281049989094553
+AI unwind (Jul–Aug 2024),SMH:put_90_1m,0.05405261580502896
+AI unwind (Jul–Aug 2024),SMH:put_90_3m,0.07997469152990289
+AI unwind (Jul–Aug 2024),SMH:put_80_3m,0.139080063499468
+AI unwind (Jul–Aug 2024),SMH:put_90_3m_tp,0.05929601618837488
+AI unwind (Jul–Aug 2024),SMH:put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMH:pspread_100_85_1m,0.025885996957625945
+AI unwind (Jul–Aug 2024),SMH:pspread_95_75_3m,0.03986252212871255
+AI unwind (Jul–Aug 2024),SMH:straddle_1m,0.006391290775407565
+AI unwind (Jul–Aug 2024),SMH:strangle_1m,0.018711946964832027
+AI unwind (Jul–Aug 2024),SMH:straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMH:short_put_90_1m,-0.08520695278192292
+AI unwind (Jul–Aug 2024),SMH:iron_condor_1m,-0.034990363351570686
+AI unwind (Jul–Aug 2024),SMH:stock,-0.2481601028125432
+AI unwind (Jul–Aug 2024),SMH:protective_put,-0.16133257090198017
+AI unwind (Jul–Aug 2024),SMH:collar,-0.10764373604449118
+AI unwind (Jul–Aug 2024),SMH:covered_call,-0.22724795476693105
+AI unwind (Jul–Aug 2024),QQQ:put_atm_1m,0.033222369581913824
+AI unwind (Jul–Aug 2024),QQQ:put_90_1m,0.08202363576406246
+AI unwind (Jul–Aug 2024),QQQ:put_90_3m,0.13195413074466966
+AI unwind (Jul–Aug 2024),QQQ:put_80_3m,0.3224050923632169
+AI unwind (Jul–Aug 2024),QQQ:put_90_3m_tp,0.08313096341101778
+AI unwind (Jul–Aug 2024),QQQ:put_90_3m_lowiv,0.05502857039774289
+AI unwind (Jul–Aug 2024),QQQ:pspread_100_85_1m,0.03121077865630073
+AI unwind (Jul–Aug 2024),QQQ:pspread_95_75_3m,0.06290054094572839
+AI unwind (Jul–Aug 2024),QQQ:straddle_1m,0.004613514797174867
+AI unwind (Jul–Aug 2024),QQQ:strangle_1m,0.04376109419075003
+AI unwind (Jul–Aug 2024),QQQ:straddle_1m_lowiv,0.0009559581854579058
+AI unwind (Jul–Aug 2024),QQQ:short_put_90_1m,-0.020221124887319086
+AI unwind (Jul–Aug 2024),QQQ:iron_condor_1m,-0.014696810832068086
+AI unwind (Jul–Aug 2024),QQQ:stock,-0.1355774466628793
+AI unwind (Jul–Aug 2024),QQQ:protective_put,-0.10492417490869699
+AI unwind (Jul–Aug 2024),QQQ:collar,-0.09273217632198871
+AI unwind (Jul–Aug 2024),QQQ:covered_call,-0.132912866195791
+DeepSeek + tariffs (Jan–Apr 2025),put_atm_1m,0.020424249343543144
+DeepSeek + tariffs (Jan–Apr 2025),put_90_1m,0.022599684026997746
+DeepSeek + tariffs (Jan–Apr 2025),put_90_3m,0.0620052641826796
+DeepSeek + tariffs (Jan–Apr 2025),put_80_3m,0.0804573066537031
+DeepSeek + tariffs (Jan–Apr 2025),put_90_3m_tp,0.05031420811938858
+DeepSeek + tariffs (Jan–Apr 2025),put_90_3m_lowiv,0.01096707759764537
+DeepSeek + tariffs (Jan–Apr 2025),pspread_100_85_1m,0.01766021685017871
+DeepSeek + tariffs (Jan–Apr 2025),pspread_95_75_3m,0.03367049539854361
+DeepSeek + tariffs (Jan–Apr 2025),straddle_1m,0.0018859875115353475
+DeepSeek + tariffs (Jan–Apr 2025),strangle_1m,0.0025916269725341223
+DeepSeek + tariffs (Jan–Apr 2025),straddle_1m_lowiv,0.0009478616199458667
+DeepSeek + tariffs (Jan–Apr 2025),short_put_90_1m,-0.10995128631610851
+DeepSeek + tariffs (Jan–Apr 2025),iron_condor_1m,-0.02261144888755251
+DeepSeek + tariffs (Jan–Apr 2025),stock,-0.30695095171378073
+DeepSeek + tariffs (Jan–Apr 2025),protective_put,-0.12221606817616504
+DeepSeek + tariffs (Jan–Apr 2025),collar,-0.11219596446790203
+DeepSeek + tariffs (Jan–Apr 2025),covered_call,-0.26729330497333204
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_atm_1m,0.0276397012779106
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_90_1m,0.023422554786221905
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_90_3m,0.07699531394142856
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_80_3m,0.10757968213675739
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_90_3m_tp,0.06229643206637925
+DeepSeek + tariffs (Jan–Apr 2025),SMH:put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMH:pspread_100_85_1m,0.026823240289622685
+DeepSeek + tariffs (Jan–Apr 2025),SMH:pspread_95_75_3m,0.04853823215421027
+DeepSeek + tariffs (Jan–Apr 2025),SMH:straddle_1m,-0.0010560973126527706
+DeepSeek + tariffs (Jan–Apr 2025),SMH:strangle_1m,-0.0005168726753943531
+DeepSeek + tariffs (Jan–Apr 2025),SMH:straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMH:short_put_90_1m,-0.0703906792269452
+DeepSeek + tariffs (Jan–Apr 2025),SMH:iron_condor_1m,0.004978024724265895
+DeepSeek + tariffs (Jan–Apr 2025),SMH:stock,-0.3256511373099308
+DeepSeek + tariffs (Jan–Apr 2025),SMH:protective_put,-0.1870835800050601
+DeepSeek + tariffs (Jan–Apr 2025),SMH:collar,-0.15879102581822635
+DeepSeek + tariffs (Jan–Apr 2025),SMH:covered_call,-0.28678005237737025
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_atm_1m,0.04074096294428409
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_90_1m,0.06229758766018656
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_90_3m,0.14730374484254383
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_80_3m,0.27305163181269365
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_90_3m_tp,0.07798808466212481
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:pspread_100_85_1m,0.036899026623998576
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:pspread_95_75_3m,0.08494430897283545
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:straddle_1m,0.007229761153072944
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:strangle_1m,0.027398262279650698
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:short_put_90_1m,-0.0428235208813057
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:iron_condor_1m,-0.011722314546348311
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:stock,-0.2177071714408939
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:protective_put,-0.1259903405049092
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:collar,-0.12349655386130831
+DeepSeek + tariffs (Jan–Apr 2025),QQQ:covered_call,-0.2115015863903451
+Current sell-off (from Oct 05 2026),put_atm_1m,0.012343985460872231
+Current sell-off (from Oct 05 2026),put_90_1m,0.012921128150017003
+Current sell-off (from Oct 05 2026),put_90_3m,0.029324644212555873
+Current sell-off (from Oct 05 2026),put_80_3m,0.034202264263276216
+Current sell-off (from Oct 05 2026),put_90_3m_tp,0.026583394130142324
+Current sell-off (from Oct 05 2026),put_90_3m_lowiv,0.009874614714192154
+Current sell-off (from Oct 05 2026),pspread_100_85_1m,0.012593977552755042
+Current sell-off (from Oct 05 2026),pspread_95_75_3m,0.022858336114792044
+Current sell-off (from Oct 05 2026),straddle_1m,-0.0022702426292291467
+Current sell-off (from Oct 05 2026),strangle_1m,-0.002969054493897172
+Current sell-off (from Oct 05 2026),straddle_1m_lowiv,0.0004200787442276699
+Current sell-off (from Oct 05 2026),short_put_90_1m,-0.08240634449580453
+Current sell-off (from Oct 05 2026),iron_condor_1m,-0.019119767317717584
+Current sell-off (from Oct 05 2026),stock,-0.3152824977350238
+Current sell-off (from Oct 05 2026),protective_put,-0.19964820860884547
+Current sell-off (from Oct 05 2026),collar,-0.10334284534815585
+Current sell-off (from Oct 05 2026),covered_call,-0.22228996934142597
+Current sell-off (from Oct 05 2026),SMH:put_atm_1m,0.020459027467034208
+Current sell-off (from Oct 05 2026),SMH:put_90_1m,0.016164921149943057
+Current sell-off (from Oct 05 2026),SMH:put_90_3m,0.04197133907892292
+Current sell-off (from Oct 05 2026),SMH:put_80_3m,0.034756351701231925
+Current sell-off (from Oct 05 2026),SMH:put_90_3m_tp,0.05222786822356795
+Current sell-off (from Oct 05 2026),SMH:put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMH:pspread_100_85_1m,0.025569830295315343
+Current sell-off (from Oct 05 2026),SMH:pspread_95_75_3m,0.042791742455727366
+Current sell-off (from Oct 05 2026),SMH:straddle_1m,-0.001155294500645776
+Current sell-off (from Oct 05 2026),SMH:strangle_1m,-0.00386582463693963
+Current sell-off (from Oct 05 2026),SMH:straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMH:short_put_90_1m,-0.06971279583814127
+Current sell-off (from Oct 05 2026),SMH:iron_condor_1m,-0.0052222730942491635
+Current sell-off (from Oct 05 2026),SMH:stock,-0.3267865853224077
+Current sell-off (from Oct 05 2026),SMH:protective_put,-0.21941837204362846
+Current sell-off (from Oct 05 2026),SMH:collar,-0.15267801013899895
+Current sell-off (from Oct 05 2026),SMH:covered_call,-0.2570588432212778
+Current sell-off (from Oct 05 2026),QQQ:put_atm_1m,0.019860579307414028
+Current sell-off (from Oct 05 2026),QQQ:put_90_1m,0.0016534491278314967
+Current sell-off (from Oct 05 2026),QQQ:put_90_3m,0.04001505312520082
+Current sell-off (from Oct 05 2026),QQQ:put_80_3m,0.04263524621646142
+Current sell-off (from Oct 05 2026),QQQ:put_90_3m_tp,0.056888426507081924
+Current sell-off (from Oct 05 2026),QQQ:put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),QQQ:pspread_100_85_1m,0.022788543197394207
+Current sell-off (from Oct 05 2026),QQQ:pspread_95_75_3m,0.03830063580671972
+Current sell-off (from Oct 05 2026),QQQ:straddle_1m,-0.0005729237173762725
+Current sell-off (from Oct 05 2026),QQQ:strangle_1m,-0.006876441190653226
+Current sell-off (from Oct 05 2026),QQQ:straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),QQQ:short_put_90_1m,-0.0028942093965611537
+Current sell-off (from Oct 05 2026),QQQ:iron_condor_1m,0.006155430872680556
+Current sell-off (from Oct 05 2026),QQQ:stock,-0.15617566082339662
+Current sell-off (from Oct 05 2026),QQQ:protective_put,-0.12529234521716492
+Current sell-off (from Oct 05 2026),QQQ:collar,-0.11308621070760538
+Current sell-off (from Oct 05 2026),QQQ:covered_call,-0.14367650390627917

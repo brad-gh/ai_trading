@@ -1,0 +1,1021 @@
+window,ticker,strategy,ret
+2022 tech bear market,AMD,collar,-0.3014832829471989
+2022 tech bear market,AMD,covered_call,-0.4861888721447346
+2022 tech bear market,AMD,iron_condor_1m,-0.0430204999633011
+2022 tech bear market,AMD,protective_put,-0.5005021414844629
+2022 tech bear market,AMD,pspread_100_85_1m,0.04772846792447162
+2022 tech bear market,AMD,pspread_95_75_3m,0.08987778776898289
+2022 tech bear market,AMD,put_80_3m,0.08118841534735421
+2022 tech bear market,AMD,put_90_1m,0.08160794220246481
+2022 tech bear market,AMD,put_90_3m,0.07939115699377416
+2022 tech bear market,AMD,put_90_3m_lowiv,0.037254310513152186
+2022 tech bear market,AMD,put_90_3m_tp,0.05858585825969116
+2022 tech bear market,AMD,put_atm_1m,0.05305245150614281
+2022 tech bear market,AMD,short_put_90_1m,-0.13582871124720683
+2022 tech bear market,AMD,stock,-0.6207451435696788
+2022 tech bear market,AMD,straddle_1m,-0.0026895151775861515
+2022 tech bear market,AMD,straddle_1m_lowiv,0.012075078011473202
+2022 tech bear market,AMD,strangle_1m,0.004677703195761419
+2022 tech bear market,ARM,collar,
+2022 tech bear market,ARM,covered_call,
+2022 tech bear market,ARM,iron_condor_1m,
+2022 tech bear market,ARM,protective_put,
+2022 tech bear market,ARM,pspread_100_85_1m,
+2022 tech bear market,ARM,pspread_95_75_3m,
+2022 tech bear market,ARM,put_80_3m,
+2022 tech bear market,ARM,put_90_1m,
+2022 tech bear market,ARM,put_90_3m,
+2022 tech bear market,ARM,put_90_3m_lowiv,
+2022 tech bear market,ARM,put_90_3m_tp,
+2022 tech bear market,ARM,put_atm_1m,
+2022 tech bear market,ARM,short_put_90_1m,
+2022 tech bear market,ARM,stock,
+2022 tech bear market,ARM,straddle_1m,
+2022 tech bear market,ARM,straddle_1m_lowiv,
+2022 tech bear market,ARM,strangle_1m,
+2022 tech bear market,AVGO,collar,-0.16802096788841786
+2022 tech bear market,AVGO,covered_call,-0.1522238724796399
+2022 tech bear market,AVGO,iron_condor_1m,0.011852245579586921
+2022 tech bear market,AVGO,protective_put,-0.2163527225285022
+2022 tech bear market,AVGO,pspread_100_85_1m,0.023644988043362618
+2022 tech bear market,AVGO,pspread_95_75_3m,0.01061234197741322
+2022 tech bear market,AVGO,put_80_3m,0.008749799080552225
+2022 tech bear market,AVGO,put_90_1m,-0.000869227221278579
+2022 tech bear market,AVGO,put_90_3m,0.007991109734991095
+2022 tech bear market,AVGO,put_90_3m_lowiv,0.04567855757522305
+2022 tech bear market,AVGO,put_90_3m_tp,0.024524255368766505
+2022 tech bear market,AVGO,put_atm_1m,0.018947840960986905
+2022 tech bear market,AVGO,short_put_90_1m,0.03845244396159996
+2022 tech bear market,AVGO,stock,-0.20666955810206072
+2022 tech bear market,AVGO,straddle_1m,-0.004362256215667813
+2022 tech bear market,AVGO,straddle_1m_lowiv,0.009284625621131368
+2022 tech bear market,AVGO,strangle_1m,-0.01437250264810677
+2022 tech bear market,CRWV,collar,
+2022 tech bear market,CRWV,covered_call,
+2022 tech bear market,CRWV,iron_condor_1m,
+2022 tech bear market,CRWV,protective_put,
+2022 tech bear market,CRWV,pspread_100_85_1m,
+2022 tech bear market,CRWV,pspread_95_75_3m,
+2022 tech bear market,CRWV,put_80_3m,
+2022 tech bear market,CRWV,put_90_1m,
+2022 tech bear market,CRWV,put_90_3m,
+2022 tech bear market,CRWV,put_90_3m_lowiv,
+2022 tech bear market,CRWV,put_90_3m_tp,
+2022 tech bear market,CRWV,put_atm_1m,
+2022 tech bear market,CRWV,short_put_90_1m,
+2022 tech bear market,CRWV,stock,
+2022 tech bear market,CRWV,straddle_1m,
+2022 tech bear market,CRWV,straddle_1m_lowiv,
+2022 tech bear market,CRWV,strangle_1m,
+2022 tech bear market,MU,collar,-0.20721687876799558
+2022 tech bear market,MU,covered_call,-0.1788567512284471
+2022 tech bear market,MU,iron_condor_1m,0.07621135826184067
+2022 tech bear market,MU,protective_put,-0.31379354747182897
+2022 tech bear market,MU,pspread_100_85_1m,0.021316918988685336
+2022 tech bear market,MU,pspread_95_75_3m,0.03680434362957466
+2022 tech bear market,MU,put_80_3m,-0.03770383319032534
+2022 tech bear market,MU,put_90_1m,-0.00028297803281352954
+2022 tech bear market,MU,put_90_3m,0.0030426638391614345
+2022 tech bear market,MU,put_90_3m_lowiv,0.02370482978941983
+2022 tech bear market,MU,put_90_3m_tp,0.02065582037762045
+2022 tech bear market,MU,put_atm_1m,0.013006468480164401
+2022 tech bear market,MU,short_put_90_1m,0.0365738038996584
+2022 tech bear market,MU,stock,-0.33496947764004076
+2022 tech bear market,MU,straddle_1m,-0.014555703852907139
+2022 tech bear market,MU,straddle_1m_lowiv,-0.0007473792152570798
+2022 tech bear market,MU,strangle_1m,-0.03742070614485504
+2022 tech bear market,NVDA,collar,-0.3039757326447597
+2022 tech bear market,NVDA,covered_call,-0.47113983404750737
+2022 tech bear market,NVDA,iron_condor_1m,-0.028182735556528875
+2022 tech bear market,NVDA,protective_put,-0.5188544471744672
+2022 tech bear market,NVDA,pspread_100_85_1m,0.04595508212817946
+2022 tech bear market,NVDA,pspread_95_75_3m,0.08645236313791659
+2022 tech bear market,NVDA,put_80_3m,0.04484764051341063
+2022 tech bear market,NVDA,put_90_1m,0.060503868572181096
+2022 tech bear market,NVDA,put_90_3m,0.06126603136845238
+2022 tech bear market,NVDA,put_90_3m_lowiv,0.026383390364838014
+2022 tech bear market,NVDA,put_90_3m_tp,0.05819783135062111
+2022 tech bear market,NVDA,put_atm_1m,0.04521678550320049
+2022 tech bear market,NVDA,short_put_90_1m,-0.10425955564667191
+2022 tech bear market,NVDA,stock,-0.6371202345387024
+2022 tech bear market,NVDA,straddle_1m,-0.011576067874528816
+2022 tech bear market,NVDA,straddle_1m_lowiv,0.00605256894183983
+2022 tech bear market,NVDA,strangle_1m,-0.014154803307272685
+2022 tech bear market,ORCL,collar,-0.2322432039281816
+2022 tech bear market,ORCL,covered_call,-0.2162470414699158
+2022 tech bear market,ORCL,iron_condor_1m,0.05505709407853606
+2022 tech bear market,ORCL,protective_put,-0.2960755764379197
+2022 tech bear market,ORCL,pspread_100_85_1m,0.030720471636387043
+2022 tech bear market,ORCL,pspread_95_75_3m,0.04646838222347999
+2022 tech bear market,ORCL,put_80_3m,0.003009558602674653
+2022 tech bear market,ORCL,put_90_1m,0.045463450194592546
+2022 tech bear market,ORCL,put_90_3m,0.02949038808221967
+2022 tech bear market,ORCL,put_90_3m_lowiv,0.04636779081529474
+2022 tech bear market,ORCL,put_90_3m_tp,0.05593439353037172
+2022 tech bear market,ORCL,put_atm_1m,0.025520243321270335
+2022 tech bear market,ORCL,short_put_90_1m,0.03955657877489743
+2022 tech bear market,ORCL,stock,-0.29412283114296883
+2022 tech bear market,ORCL,straddle_1m,-0.010098716927138278
+2022 tech bear market,ORCL,straddle_1m_lowiv,0.008608236024069718
+2022 tech bear market,ORCL,strangle_1m,-0.018199465669764915
+2022 tech bear market,PLTR,collar,-0.26727938660089634
+2022 tech bear market,PLTR,covered_call,-0.48395511453934054
+2022 tech bear market,PLTR,iron_condor_1m,-0.07166422706998762
+2022 tech bear market,PLTR,protective_put,-0.4217874802043496
+2022 tech bear market,PLTR,pspread_100_85_1m,0.0421144385087497
+2022 tech bear market,PLTR,pspread_95_75_3m,0.0916360614129796
+2022 tech bear market,PLTR,put_80_3m,0.06454106020603005
+2022 tech bear market,PLTR,put_90_1m,0.08028092655795943
+2022 tech bear market,PLTR,put_90_3m,0.07602313587736738
+2022 tech bear market,PLTR,put_90_3m_lowiv,0.0925318966530657
+2022 tech bear market,PLTR,put_90_3m_tp,0.08762947214627931
+2022 tech bear market,PLTR,put_atm_1m,0.052082925607833695
+2022 tech bear market,PLTR,short_put_90_1m,-0.2211539580617375
+2022 tech bear market,PLTR,stock,-0.6226062596313979
+2022 tech bear market,PLTR,straddle_1m,0.002701857183298612
+2022 tech bear market,PLTR,straddle_1m_lowiv,0.017624348272077078
+2022 tech bear market,PLTR,strangle_1m,0.005458241731954755
+2022 tech bear market,QQQ,collar,-0.27129184516142685
+2022 tech bear market,QQQ,covered_call,-0.2842276437507513
+2022 tech bear market,QQQ,iron_condor_1m,0.04092799423472501
+2022 tech bear market,QQQ,protective_put,-0.31970343354264963
+2022 tech bear market,QQQ,pspread_100_85_1m,0.054475030829244805
+2022 tech bear market,QQQ,pspread_95_75_3m,0.07377922442330817
+2022 tech bear market,QQQ,put_80_3m,-0.041050295728467204
+2022 tech bear market,QQQ,put_90_1m,-0.02050829680316238
+2022 tech bear market,QQQ,put_90_3m,0.022507313648472287
+2022 tech bear market,QQQ,put_90_3m_lowiv,0.03567055872789964
+2022 tech bear market,QQQ,put_90_3m_tp,0.05579281801349668
+2022 tech bear market,QQQ,put_atm_1m,0.03860151061656715
+2022 tech bear market,QQQ,short_put_90_1m,0.06706941063597749
+2022 tech bear market,QQQ,stock,-0.33043044904317287
+2022 tech bear market,QQQ,straddle_1m,-0.011250033096271775
+2022 tech bear market,QQQ,straddle_1m_lowiv,-0.0004411505834558933
+2022 tech bear market,QQQ,strangle_1m,-0.04051834429470944
+2022 tech bear market,SMCI,collar,0.17220701439806888
+2022 tech bear market,SMCI,covered_call,0.17767198642552073
+2022 tech bear market,SMCI,iron_condor_1m,-0.010330405870040082
+2022 tech bear market,SMCI,protective_put,0.08575377969272549
+2022 tech bear market,SMCI,pspread_100_85_1m,-0.013618936814384499
+2022 tech bear market,SMCI,pspread_95_75_3m,-0.05580016446608694
+2022 tech bear market,SMCI,put_80_3m,-0.07118377324921356
+2022 tech bear market,SMCI,put_90_1m,-0.040104523282833315
+2022 tech bear market,SMCI,put_90_3m,-0.061671934943023934
+2022 tech bear market,SMCI,put_90_3m_lowiv,-0.0018713656442312825
+2022 tech bear market,SMCI,put_90_3m_tp,-0.05839098063324618
+2022 tech bear market,SMCI,put_atm_1m,-0.024145664595600677
+2022 tech bear market,SMCI,short_put_90_1m,0.15392657523955955
+2022 tech bear market,SMCI,stock,0.3074916906771551
+2022 tech bear market,SMCI,straddle_1m,0.004201393500301111
+2022 tech bear market,SMCI,straddle_1m_lowiv,-0.0005149027295936523
+2022 tech bear market,SMCI,strangle_1m,0.02021901802939476
+2022 tech bear market,SMH,collar,-0.27932989699234345
+2022 tech bear market,SMH,covered_call,-0.30493906179355745
+2022 tech bear market,SMH,iron_condor_1m,0.07519198767267199
+2022 tech bear market,SMH,protective_put,-0.3910897567721008
+2022 tech bear market,SMH,pspread_100_85_1m,0.041565440762538826
+2022 tech bear market,SMH,pspread_95_75_3m,0.05889986573181817
+2022 tech bear market,SMH,put_80_3m,-0.013041241687687706
+2022 tech bear market,SMH,put_90_1m,-0.007438245576103604
+2022 tech bear market,SMH,put_90_3m,0.02591884872815738
+2022 tech bear market,SMH,put_90_3m_lowiv,0.04880949551057514
+2022 tech bear market,SMH,put_90_3m_tp,0.029683286704539288
+2022 tech bear market,SMH,put_atm_1m,0.024485680277610607
+2022 tech bear market,SMH,short_put_90_1m,0.08086293317890854
+2022 tech bear market,SMH,stock,-0.4175893208763303
+2022 tech bear market,SMH,straddle_1m,-0.02046240359974522
+2022 tech bear market,SMH,straddle_1m_lowiv,0.0008071126175664121
+2022 tech bear market,SMH,strangle_1m,-0.04615376646697641
+2022 tech bear market,TSLA,collar,-0.18845203899128493
+2022 tech bear market,TSLA,covered_call,-0.2604516050438911
+2022 tech bear market,TSLA,iron_condor_1m,-0.0465826866708143
+2022 tech bear market,TSLA,protective_put,-0.4060229498365689
+2022 tech bear market,TSLA,pspread_100_85_1m,0.029508947396346425
+2022 tech bear market,TSLA,pspread_95_75_3m,0.03184230082793168
+2022 tech bear market,TSLA,put_80_3m,-0.02701525222481737
+2022 tech bear market,TSLA,put_90_1m,-0.007929966568824413
+2022 tech bear market,TSLA,put_90_3m,-0.004080821630452097
+2022 tech bear market,TSLA,put_90_3m_lowiv,0.029258949001205597
+2022 tech bear market,TSLA,put_90_3m_tp,0.007466959933313091
+2022 tech bear market,TSLA,put_atm_1m,0.009793716522571676
+2022 tech bear market,TSLA,short_put_90_1m,0.07075261783276719
+2022 tech bear market,TSLA,stock,-0.415017656990367
+2022 tech bear market,TSLA,straddle_1m,-0.014098493093795416
+2022 tech bear market,TSLA,straddle_1m_lowiv,-0.0016024345023949872
+2022 tech bear market,TSLA,strangle_1m,-0.025750737495526647
+AI unwind (Jul–Aug 2024),AMD,collar,-0.13635403273421748
+AI unwind (Jul–Aug 2024),AMD,covered_call,-0.24695345179293643
+AI unwind (Jul–Aug 2024),AMD,iron_condor_1m,-0.016032862765042625
+AI unwind (Jul–Aug 2024),AMD,protective_put,-0.19362067662564156
+AI unwind (Jul–Aug 2024),AMD,pspread_100_85_1m,0.019406504032686542
+AI unwind (Jul–Aug 2024),AMD,pspread_95_75_3m,0.03853385035992477
+AI unwind (Jul–Aug 2024),AMD,put_80_3m,0.07652454970428796
+AI unwind (Jul–Aug 2024),AMD,put_90_1m,0.04026815437745562
+AI unwind (Jul–Aug 2024),AMD,put_90_3m,0.057203495334292385
+AI unwind (Jul–Aug 2024),AMD,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),AMD,put_90_3m_tp,0.05749779376368859
+AI unwind (Jul–Aug 2024),AMD,put_atm_1m,0.026116133973182333
+AI unwind (Jul–Aug 2024),AMD,short_put_90_1m,-0.10529635992320682
+AI unwind (Jul–Aug 2024),AMD,stock,-0.30055450384343796
+AI unwind (Jul–Aug 2024),AMD,straddle_1m,0.0017673648000029092
+AI unwind (Jul–Aug 2024),AMD,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),AMD,strangle_1m,0.003932011680795711
+AI unwind (Jul–Aug 2024),ARM,collar,-0.08896507193887183
+AI unwind (Jul–Aug 2024),ARM,covered_call,-0.32672420869388485
+AI unwind (Jul–Aug 2024),ARM,iron_condor_1m,-0.030454840542098096
+AI unwind (Jul–Aug 2024),ARM,protective_put,-0.2972949322106294
+AI unwind (Jul–Aug 2024),ARM,pspread_100_85_1m,0.009638884793253462
+AI unwind (Jul–Aug 2024),ARM,pspread_95_75_3m,0.014228096983714548
+AI unwind (Jul–Aug 2024),ARM,put_80_3m,0.030320751031263055
+AI unwind (Jul–Aug 2024),ARM,put_90_1m,0.02103234725711237
+AI unwind (Jul–Aug 2024),ARM,put_90_3m,0.02666091244494482
+AI unwind (Jul–Aug 2024),ARM,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),ARM,put_90_3m_tp,0.0282732331165905
+AI unwind (Jul–Aug 2024),ARM,put_atm_1m,0.017392496738097757
+AI unwind (Jul–Aug 2024),ARM,short_put_90_1m,-0.19355837674134607
+AI unwind (Jul–Aug 2024),ARM,stock,-0.42566774384908224
+AI unwind (Jul–Aug 2024),ARM,straddle_1m,0.00023179116131756748
+AI unwind (Jul–Aug 2024),ARM,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),ARM,strangle_1m,0.0005581814966620701
+AI unwind (Jul–Aug 2024),AVGO,collar,-0.07073270671939155
+AI unwind (Jul–Aug 2024),AVGO,covered_call,-0.18950504333450166
+AI unwind (Jul–Aug 2024),AVGO,iron_condor_1m,-0.01701761561523086
+AI unwind (Jul–Aug 2024),AVGO,protective_put,-0.14318299922839003
+AI unwind (Jul–Aug 2024),AVGO,pspread_100_85_1m,0.017681648482413687
+AI unwind (Jul–Aug 2024),AVGO,pspread_95_75_3m,0.02266034740858927
+AI unwind (Jul–Aug 2024),AVGO,put_80_3m,0.0790010112956024
+AI unwind (Jul–Aug 2024),AVGO,put_90_1m,0.026722717089012166
+AI unwind (Jul–Aug 2024),AVGO,put_90_3m,0.04836897920968928
+AI unwind (Jul–Aug 2024),AVGO,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),AVGO,put_90_3m_tp,0.049461006687538396
+AI unwind (Jul–Aug 2024),AVGO,put_atm_1m,0.020698247629861007
+AI unwind (Jul–Aug 2024),AVGO,short_put_90_1m,-0.06854602131289453
+AI unwind (Jul–Aug 2024),AVGO,stock,-0.2189444119468338
+AI unwind (Jul–Aug 2024),AVGO,straddle_1m,0.002647539876814965
+AI unwind (Jul–Aug 2024),AVGO,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),AVGO,strangle_1m,0.00404751817850674
+AI unwind (Jul–Aug 2024),CRWV,collar,
+AI unwind (Jul–Aug 2024),CRWV,covered_call,
+AI unwind (Jul–Aug 2024),CRWV,iron_condor_1m,
+AI unwind (Jul–Aug 2024),CRWV,protective_put,
+AI unwind (Jul–Aug 2024),CRWV,pspread_100_85_1m,
+AI unwind (Jul–Aug 2024),CRWV,pspread_95_75_3m,
+AI unwind (Jul–Aug 2024),CRWV,put_80_3m,
+AI unwind (Jul–Aug 2024),CRWV,put_90_1m,
+AI unwind (Jul–Aug 2024),CRWV,put_90_3m,
+AI unwind (Jul–Aug 2024),CRWV,put_90_3m_lowiv,
+AI unwind (Jul–Aug 2024),CRWV,put_90_3m_tp,
+AI unwind (Jul–Aug 2024),CRWV,put_atm_1m,
+AI unwind (Jul–Aug 2024),CRWV,short_put_90_1m,
+AI unwind (Jul–Aug 2024),CRWV,stock,
+AI unwind (Jul–Aug 2024),CRWV,straddle_1m,
+AI unwind (Jul–Aug 2024),CRWV,straddle_1m_lowiv,
+AI unwind (Jul–Aug 2024),CRWV,strangle_1m,
+AI unwind (Jul–Aug 2024),MU,collar,-0.13541448925027716
+AI unwind (Jul–Aug 2024),MU,covered_call,-0.34043077662573124
+AI unwind (Jul–Aug 2024),MU,iron_condor_1m,-0.0872300136279797
+AI unwind (Jul–Aug 2024),MU,protective_put,-0.17611883901690614
+AI unwind (Jul–Aug 2024),MU,pspread_100_85_1m,0.024787684578398105
+AI unwind (Jul–Aug 2024),MU,pspread_95_75_3m,0.05284304143331332
+AI unwind (Jul–Aug 2024),MU,put_80_3m,0.1783303907883675
+AI unwind (Jul–Aug 2024),MU,put_90_1m,0.08940728418895454
+AI unwind (Jul–Aug 2024),MU,put_90_3m,0.10928193207530061
+AI unwind (Jul–Aug 2024),MU,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),MU,put_90_3m_tp,0.06423567649172231
+AI unwind (Jul–Aug 2024),MU,put_atm_1m,0.043743447804226857
+AI unwind (Jul–Aug 2024),MU,short_put_90_1m,-0.20969932272601224
+AI unwind (Jul–Aug 2024),MU,stock,-0.3635896356693601
+AI unwind (Jul–Aug 2024),MU,straddle_1m,0.014959598282776577
+AI unwind (Jul–Aug 2024),MU,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),MU,strangle_1m,0.03415783443126135
+AI unwind (Jul–Aug 2024),NVDA,collar,-0.06942904356078003
+AI unwind (Jul–Aug 2024),NVDA,covered_call,-0.22778778337337954
+AI unwind (Jul–Aug 2024),NVDA,iron_condor_1m,-0.02496830140702077
+AI unwind (Jul–Aug 2024),NVDA,protective_put,-0.16906966162973824
+AI unwind (Jul–Aug 2024),NVDA,pspread_100_85_1m,0.01808250405125804
+AI unwind (Jul–Aug 2024),NVDA,pspread_95_75_3m,0.021684211626562644
+AI unwind (Jul–Aug 2024),NVDA,put_80_3m,0.06435554509667689
+AI unwind (Jul–Aug 2024),NVDA,put_90_1m,0.023286446251205947
+AI unwind (Jul–Aug 2024),NVDA,put_90_3m,0.04472461628458742
+AI unwind (Jul–Aug 2024),NVDA,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),NVDA,put_90_3m_tp,0.05193593772540234
+AI unwind (Jul–Aug 2024),NVDA,put_atm_1m,0.020760050392277258
+AI unwind (Jul–Aug 2024),NVDA,short_put_90_1m,-0.08737208794963035
+AI unwind (Jul–Aug 2024),NVDA,stock,-0.2668445833571508
+AI unwind (Jul–Aug 2024),NVDA,straddle_1m,0.002091000634360772
+AI unwind (Jul–Aug 2024),NVDA,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),NVDA,strangle_1m,0.0029317051247124823
+AI unwind (Jul–Aug 2024),ORCL,collar,-0.044548630747662715
+AI unwind (Jul–Aug 2024),ORCL,covered_call,-0.10027233048541977
+AI unwind (Jul–Aug 2024),ORCL,iron_condor_1m,-0.010715069346224407
+AI unwind (Jul–Aug 2024),ORCL,protective_put,-0.0723377997866874
+AI unwind (Jul–Aug 2024),ORCL,pspread_100_85_1m,0.009568282000499756
+AI unwind (Jul–Aug 2024),ORCL,pspread_95_75_3m,0.020698045438580188
+AI unwind (Jul–Aug 2024),ORCL,put_80_3m,0.07835982563634156
+AI unwind (Jul–Aug 2024),ORCL,put_90_1m,0.016868079537019735
+AI unwind (Jul–Aug 2024),ORCL,put_90_3m,0.03905076113813756
+AI unwind (Jul–Aug 2024),ORCL,put_90_3m_lowiv,0.010920259430323074
+AI unwind (Jul–Aug 2024),ORCL,put_90_3m_tp,0.049748273490241
+AI unwind (Jul–Aug 2024),ORCL,put_atm_1m,0.011342678587664986
+AI unwind (Jul–Aug 2024),ORCL,short_put_90_1m,-0.02544129659677017
+AI unwind (Jul–Aug 2024),ORCL,stock,-0.11131508995373054
+AI unwind (Jul–Aug 2024),ORCL,straddle_1m,0.00028970884744926117
+AI unwind (Jul–Aug 2024),ORCL,straddle_1m_lowiv,-0.0005011569728120769
+AI unwind (Jul–Aug 2024),ORCL,strangle_1m,0.004102070207387171
+AI unwind (Jul–Aug 2024),PLTR,collar,-0.008843866963254728
+AI unwind (Jul–Aug 2024),PLTR,covered_call,-0.01726175492105695
+AI unwind (Jul–Aug 2024),PLTR,iron_condor_1m,0.019207253897378422
+AI unwind (Jul–Aug 2024),PLTR,protective_put,-0.05400319844208515
+AI unwind (Jul–Aug 2024),PLTR,pspread_100_85_1m,0.0004119468968935056
+AI unwind (Jul–Aug 2024),PLTR,pspread_95_75_3m,0.002893910607647083
+AI unwind (Jul–Aug 2024),PLTR,put_80_3m,0.009878897249794124
+AI unwind (Jul–Aug 2024),PLTR,put_90_1m,-0.001354880131411765
+AI unwind (Jul–Aug 2024),PLTR,put_90_3m,0.007105254046390883
+AI unwind (Jul–Aug 2024),PLTR,put_90_3m_lowiv,0.0034992469460078048
+AI unwind (Jul–Aug 2024),PLTR,put_90_3m_tp,0.007105254046390867
+AI unwind (Jul–Aug 2024),PLTR,put_atm_1m,1.173856814627529e-05
+AI unwind (Jul–Aug 2024),PLTR,short_put_90_1m,0.003949733585502642
+AI unwind (Jul–Aug 2024),PLTR,stock,-0.07389163883998033
+AI unwind (Jul–Aug 2024),PLTR,straddle_1m,-0.0044584468592643416
+AI unwind (Jul–Aug 2024),PLTR,straddle_1m_lowiv,-0.0017082472235329263
+AI unwind (Jul–Aug 2024),PLTR,strangle_1m,-0.008297890469917035
+AI unwind (Jul–Aug 2024),QQQ,collar,-0.09220200859064555
+AI unwind (Jul–Aug 2024),QQQ,covered_call,-0.13287316629814758
+AI unwind (Jul–Aug 2024),QQQ,iron_condor_1m,-0.014617481765274448
+AI unwind (Jul–Aug 2024),QQQ,protective_put,-0.10550014168513247
+AI unwind (Jul–Aug 2024),QQQ,pspread_100_85_1m,0.031078407934042134
+AI unwind (Jul–Aug 2024),QQQ,pspread_95_75_3m,0.05941391683186302
+AI unwind (Jul–Aug 2024),QQQ,put_80_3m,0.3120231080457807
+AI unwind (Jul–Aug 2024),QQQ,put_90_1m,0.08596441134894801
+AI unwind (Jul–Aug 2024),QQQ,put_90_3m,0.11959862294883082
+AI unwind (Jul–Aug 2024),QQQ,put_90_3m_lowiv,0.05564792615167974
+AI unwind (Jul–Aug 2024),QQQ,put_90_3m_tp,0.08232660425823142
+AI unwind (Jul–Aug 2024),QQQ,put_atm_1m,0.033217169554665554
+AI unwind (Jul–Aug 2024),QQQ,short_put_90_1m,-0.020281096087553473
+AI unwind (Jul–Aug 2024),QQQ,stock,-0.13557744666287933
+AI unwind (Jul–Aug 2024),QQQ,straddle_1m,0.004573723726847596
+AI unwind (Jul–Aug 2024),QQQ,straddle_1m_lowiv,0.000910130233596651
+AI unwind (Jul–Aug 2024),QQQ,strangle_1m,0.0449696045172559
+AI unwind (Jul–Aug 2024),SMCI,collar,-0.12681151021631323
+AI unwind (Jul–Aug 2024),SMCI,covered_call,-0.38196424189994155
+AI unwind (Jul–Aug 2024),SMCI,iron_condor_1m,-0.05998787785684735
+AI unwind (Jul–Aug 2024),SMCI,protective_put,-0.2055711353044991
+AI unwind (Jul–Aug 2024),SMCI,pspread_100_85_1m,0.012991593244044582
+AI unwind (Jul–Aug 2024),SMCI,pspread_95_75_3m,0.023156403000058813
+AI unwind (Jul–Aug 2024),SMCI,put_80_3m,0.05277960179344224
+AI unwind (Jul–Aug 2024),SMCI,put_90_1m,0.02380335357441456
+AI unwind (Jul–Aug 2024),SMCI,put_90_3m,0.04605574735118262
+AI unwind (Jul–Aug 2024),SMCI,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMCI,put_90_3m_tp,0.04682926492594309
+AI unwind (Jul–Aug 2024),SMCI,put_atm_1m,0.020673356476259924
+AI unwind (Jul–Aug 2024),SMCI,short_put_90_1m,-0.23458328329057648
+AI unwind (Jul–Aug 2024),SMCI,stock,-0.4525433914497003
+AI unwind (Jul–Aug 2024),SMCI,straddle_1m,0.0035631272701859653
+AI unwind (Jul–Aug 2024),SMCI,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMCI,strangle_1m,0.00482403776868044
+AI unwind (Jul–Aug 2024),SMH,collar,-0.10547461519813545
+AI unwind (Jul–Aug 2024),SMH,covered_call,-0.22753228720427726
+AI unwind (Jul–Aug 2024),SMH,iron_condor_1m,-0.03853088476615051
+AI unwind (Jul–Aug 2024),SMH,protective_put,-0.1639910268102247
+AI unwind (Jul–Aug 2024),SMH,pspread_100_85_1m,0.025843617636958645
+AI unwind (Jul–Aug 2024),SMH,pspread_95_75_3m,0.03972525131949606
+AI unwind (Jul–Aug 2024),SMH,put_80_3m,0.1315460405519705
+AI unwind (Jul–Aug 2024),SMH,put_90_1m,0.05606735114401588
+AI unwind (Jul–Aug 2024),SMH,put_90_3m,0.0766429569087416
+AI unwind (Jul–Aug 2024),SMH,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMH,put_90_3m_tp,0.06061974955745069
+AI unwind (Jul–Aug 2024),SMH,put_atm_1m,0.03283276141030227
+AI unwind (Jul–Aug 2024),SMH,short_put_90_1m,-0.0844810506028573
+AI unwind (Jul–Aug 2024),SMH,stock,-0.2481601028125431
+AI unwind (Jul–Aug 2024),SMH,straddle_1m,0.006397270944453621
+AI unwind (Jul–Aug 2024),SMH,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),SMH,strangle_1m,0.018280991517432767
+AI unwind (Jul–Aug 2024),TSLA,collar,-0.052007489139020514
+AI unwind (Jul–Aug 2024),TSLA,covered_call,-0.1757163162883745
+AI unwind (Jul–Aug 2024),TSLA,iron_condor_1m,-0.007687072172392855
+AI unwind (Jul–Aug 2024),TSLA,protective_put,-0.20262633521512002
+AI unwind (Jul–Aug 2024),TSLA,pspread_100_85_1m,0.012133015024083366
+AI unwind (Jul–Aug 2024),TSLA,pspread_95_75_3m,0.012174133172151764
+AI unwind (Jul–Aug 2024),TSLA,put_80_3m,0.040552031631388506
+AI unwind (Jul–Aug 2024),TSLA,put_90_1m,0.019089347677886646
+AI unwind (Jul–Aug 2024),TSLA,put_90_3m,0.02917603539598407
+AI unwind (Jul–Aug 2024),TSLA,put_90_3m_lowiv,0.0
+AI unwind (Jul–Aug 2024),TSLA,put_90_3m_tp,0.03398607826109072
+AI unwind (Jul–Aug 2024),TSLA,put_atm_1m,0.015179126543261987
+AI unwind (Jul–Aug 2024),TSLA,short_put_90_1m,-0.0892101525008689
+AI unwind (Jul–Aug 2024),TSLA,stock,-0.2715946691730509
+AI unwind (Jul–Aug 2024),TSLA,straddle_1m,-0.003151593421668317
+AI unwind (Jul–Aug 2024),TSLA,straddle_1m_lowiv,0.0
+AI unwind (Jul–Aug 2024),TSLA,strangle_1m,-0.010162801319765562
+COVID crash (Feb–Mar 2020),AMD,collar,-0.10812935911420479
+COVID crash (Feb–Mar 2020),AMD,covered_call,-0.21218466794270682
+COVID crash (Feb–Mar 2020),AMD,iron_condor_1m,0.01585328598704963
+COVID crash (Feb–Mar 2020),AMD,protective_put,-0.2288703450927697
+COVID crash (Feb–Mar 2020),AMD,pspread_100_85_1m,0.017280943666005626
+COVID crash (Feb–Mar 2020),AMD,pspread_95_75_3m,0.02950814521750709
+COVID crash (Feb–Mar 2020),AMD,put_80_3m,0.06595848070604551
+COVID crash (Feb–Mar 2020),AMD,put_90_1m,0.036847752674370945
+COVID crash (Feb–Mar 2020),AMD,put_90_3m,0.0443281094474857
+COVID crash (Feb–Mar 2020),AMD,put_90_3m_lowiv,0.047301693840045816
+COVID crash (Feb–Mar 2020),AMD,put_90_3m_tp,0.05421355345123556
+COVID crash (Feb–Mar 2020),AMD,put_atm_1m,0.021311906164318994
+COVID crash (Feb–Mar 2020),AMD,short_put_90_1m,-0.05762151068401756
+COVID crash (Feb–Mar 2020),AMD,stock,-0.29303907791321426
+COVID crash (Feb–Mar 2020),AMD,straddle_1m,-0.004012650484472297
+COVID crash (Feb–Mar 2020),AMD,straddle_1m_lowiv,-0.00022109780602265152
+COVID crash (Feb–Mar 2020),AMD,strangle_1m,-0.004758179204977463
+COVID crash (Feb–Mar 2020),ARM,collar,
+COVID crash (Feb–Mar 2020),ARM,covered_call,
+COVID crash (Feb–Mar 2020),ARM,iron_condor_1m,
+COVID crash (Feb–Mar 2020),ARM,protective_put,
+COVID crash (Feb–Mar 2020),ARM,pspread_100_85_1m,
+COVID crash (Feb–Mar 2020),ARM,pspread_95_75_3m,
+COVID crash (Feb–Mar 2020),ARM,put_80_3m,
+COVID crash (Feb–Mar 2020),ARM,put_90_1m,
+COVID crash (Feb–Mar 2020),ARM,put_90_3m,
+COVID crash (Feb–Mar 2020),ARM,put_90_3m_lowiv,
+COVID crash (Feb–Mar 2020),ARM,put_90_3m_tp,
+COVID crash (Feb–Mar 2020),ARM,put_atm_1m,
+COVID crash (Feb–Mar 2020),ARM,short_put_90_1m,
+COVID crash (Feb–Mar 2020),ARM,stock,
+COVID crash (Feb–Mar 2020),ARM,straddle_1m,
+COVID crash (Feb–Mar 2020),ARM,straddle_1m_lowiv,
+COVID crash (Feb–Mar 2020),ARM,strangle_1m,
+COVID crash (Feb–Mar 2020),AVGO,collar,-0.12458495870286751
+COVID crash (Feb–Mar 2020),AVGO,covered_call,-0.36087502009153233
+COVID crash (Feb–Mar 2020),AVGO,iron_condor_1m,-0.0860800825948954
+COVID crash (Feb–Mar 2020),AVGO,protective_put,-0.13471048308901828
+COVID crash (Feb–Mar 2020),AVGO,pspread_100_85_1m,0.032992184561430576
+COVID crash (Feb–Mar 2020),AVGO,pspread_95_75_3m,0.11587050884888205
+COVID crash (Feb–Mar 2020),AVGO,put_80_3m,1.118954713603666
+COVID crash (Feb–Mar 2020),AVGO,put_90_1m,0.16732033916157468
+COVID crash (Feb–Mar 2020),AVGO,put_90_3m,0.3320357777870073
+COVID crash (Feb–Mar 2020),AVGO,put_90_3m_lowiv,0.03757983823254357
+COVID crash (Feb–Mar 2020),AVGO,put_90_3m_tp,0.0795587134681259
+COVID crash (Feb–Mar 2020),AVGO,put_atm_1m,0.05866649975851309
+COVID crash (Feb–Mar 2020),AVGO,short_put_90_1m,-0.21666450337035686
+COVID crash (Feb–Mar 2020),AVGO,stock,-0.3767349117484456
+COVID crash (Feb–Mar 2020),AVGO,straddle_1m,0.022632454395275795
+COVID crash (Feb–Mar 2020),AVGO,straddle_1m_lowiv,0.00026379098214556775
+COVID crash (Feb–Mar 2020),AVGO,strangle_1m,0.07661939833085427
+COVID crash (Feb–Mar 2020),CRWV,collar,
+COVID crash (Feb–Mar 2020),CRWV,covered_call,
+COVID crash (Feb–Mar 2020),CRWV,iron_condor_1m,
+COVID crash (Feb–Mar 2020),CRWV,protective_put,
+COVID crash (Feb–Mar 2020),CRWV,pspread_100_85_1m,
+COVID crash (Feb–Mar 2020),CRWV,pspread_95_75_3m,
+COVID crash (Feb–Mar 2020),CRWV,put_80_3m,
+COVID crash (Feb–Mar 2020),CRWV,put_90_1m,
+COVID crash (Feb–Mar 2020),CRWV,put_90_3m,
+COVID crash (Feb–Mar 2020),CRWV,put_90_3m_lowiv,
+COVID crash (Feb–Mar 2020),CRWV,put_90_3m_tp,
+COVID crash (Feb–Mar 2020),CRWV,put_atm_1m,
+COVID crash (Feb–Mar 2020),CRWV,short_put_90_1m,
+COVID crash (Feb–Mar 2020),CRWV,stock,
+COVID crash (Feb–Mar 2020),CRWV,straddle_1m,
+COVID crash (Feb–Mar 2020),CRWV,straddle_1m_lowiv,
+COVID crash (Feb–Mar 2020),CRWV,strangle_1m,
+COVID crash (Feb–Mar 2020),MU,collar,-0.12607380071190927
+COVID crash (Feb–Mar 2020),MU,covered_call,-0.31477483179829885
+COVID crash (Feb–Mar 2020),MU,iron_condor_1m,-0.05387130087200419
+COVID crash (Feb–Mar 2020),MU,protective_put,-0.19547148940125153
+COVID crash (Feb–Mar 2020),MU,pspread_100_85_1m,0.018004116687159906
+COVID crash (Feb–Mar 2020),MU,pspread_95_75_3m,0.05322498411929363
+COVID crash (Feb–Mar 2020),MU,put_80_3m,0.18659282076038625
+COVID crash (Feb–Mar 2020),MU,put_90_1m,0.0504873997884329
+COVID crash (Feb–Mar 2020),MU,put_90_3m,0.10482723622731159
+COVID crash (Feb–Mar 2020),MU,put_90_3m_lowiv,0.01984127060003557
+COVID crash (Feb–Mar 2020),MU,put_90_3m_tp,0.05838837414531815
+COVID crash (Feb–Mar 2020),MU,put_atm_1m,0.029694652531376025
+COVID crash (Feb–Mar 2020),MU,short_put_90_1m,-0.16571734005135155
+COVID crash (Feb–Mar 2020),MU,stock,-0.36239378929003024
+COVID crash (Feb–Mar 2020),MU,straddle_1m,0.006432608603519537
+COVID crash (Feb–Mar 2020),MU,straddle_1m_lowiv,-1.814778619114668e-05
+COVID crash (Feb–Mar 2020),MU,strangle_1m,0.015561237593212188
+COVID crash (Feb–Mar 2020),NVDA,collar,-0.12547475373413353
+COVID crash (Feb–Mar 2020),NVDA,covered_call,-0.2161698656570242
+COVID crash (Feb–Mar 2020),NVDA,iron_condor_1m,0.020197771539199095
+COVID crash (Feb–Mar 2020),NVDA,protective_put,-0.24862027911128134
+COVID crash (Feb–Mar 2020),NVDA,pspread_100_85_1m,0.015848736443084894
+COVID crash (Feb–Mar 2020),NVDA,pspread_95_75_3m,0.039056762346564945
+COVID crash (Feb–Mar 2020),NVDA,put_80_3m,0.10220225862613885
+COVID crash (Feb–Mar 2020),NVDA,put_90_1m,0.04226831088526661
+COVID crash (Feb–Mar 2020),NVDA,put_90_3m,0.06051966527400162
+COVID crash (Feb–Mar 2020),NVDA,put_90_3m_lowiv,0.03893523006275018
+COVID crash (Feb–Mar 2020),NVDA,put_90_3m_tp,0.06785745781713445
+COVID crash (Feb–Mar 2020),NVDA,put_atm_1m,0.02197954132570047
+COVID crash (Feb–Mar 2020),NVDA,short_put_90_1m,-0.09286838702705418
+COVID crash (Feb–Mar 2020),NVDA,stock,-0.32374571200803726
+COVID crash (Feb–Mar 2020),NVDA,straddle_1m,-0.006304404754125715
+COVID crash (Feb–Mar 2020),NVDA,straddle_1m_lowiv,-0.0020780082530128317
+COVID crash (Feb–Mar 2020),NVDA,strangle_1m,-0.022549012543757116
+COVID crash (Feb–Mar 2020),ORCL,collar,-0.10869536215361075
+COVID crash (Feb–Mar 2020),ORCL,covered_call,-0.19062981549778532
+COVID crash (Feb–Mar 2020),ORCL,iron_condor_1m,-0.04520206671188239
+COVID crash (Feb–Mar 2020),ORCL,protective_put,-0.1125348617243049
+COVID crash (Feb–Mar 2020),ORCL,pspread_100_85_1m,0.03452524570467176
+COVID crash (Feb–Mar 2020),ORCL,pspread_95_75_3m,0.128567001420386
+COVID crash (Feb–Mar 2020),ORCL,put_80_3m,1.1462822838286528
+COVID crash (Feb–Mar 2020),ORCL,put_90_1m,0.20012234072357996
+COVID crash (Feb–Mar 2020),ORCL,put_90_3m,0.2954349153107666
+COVID crash (Feb–Mar 2020),ORCL,put_90_3m_lowiv,0.015466262736853153
+COVID crash (Feb–Mar 2020),ORCL,put_90_3m_tp,0.08073165596267694
+COVID crash (Feb–Mar 2020),ORCL,put_atm_1m,0.04084879078390577
+COVID crash (Feb–Mar 2020),ORCL,short_put_90_1m,-0.05938056040776775
+COVID crash (Feb–Mar 2020),ORCL,stock,-0.2029220776761881
+COVID crash (Feb–Mar 2020),ORCL,straddle_1m,0.012405381517980086
+COVID crash (Feb–Mar 2020),ORCL,straddle_1m_lowiv,0.0
+COVID crash (Feb–Mar 2020),ORCL,strangle_1m,0.08540461969664005
+COVID crash (Feb–Mar 2020),PLTR,collar,
+COVID crash (Feb–Mar 2020),PLTR,covered_call,
+COVID crash (Feb–Mar 2020),PLTR,iron_condor_1m,
+COVID crash (Feb–Mar 2020),PLTR,protective_put,
+COVID crash (Feb–Mar 2020),PLTR,pspread_100_85_1m,
+COVID crash (Feb–Mar 2020),PLTR,pspread_95_75_3m,
+COVID crash (Feb–Mar 2020),PLTR,put_80_3m,
+COVID crash (Feb–Mar 2020),PLTR,put_90_1m,
+COVID crash (Feb–Mar 2020),PLTR,put_90_3m,
+COVID crash (Feb–Mar 2020),PLTR,put_90_3m_lowiv,
+COVID crash (Feb–Mar 2020),PLTR,put_90_3m_tp,
+COVID crash (Feb–Mar 2020),PLTR,put_atm_1m,
+COVID crash (Feb–Mar 2020),PLTR,short_put_90_1m,
+COVID crash (Feb–Mar 2020),PLTR,stock,
+COVID crash (Feb–Mar 2020),PLTR,straddle_1m,
+COVID crash (Feb–Mar 2020),PLTR,straddle_1m_lowiv,
+COVID crash (Feb–Mar 2020),PLTR,strangle_1m,
+COVID crash (Feb–Mar 2020),QQQ,collar,-0.1531585169625542
+COVID crash (Feb–Mar 2020),QQQ,covered_call,-0.26557430585702657
+COVID crash (Feb–Mar 2020),QQQ,iron_condor_1m,-0.06795596231724181
+COVID crash (Feb–Mar 2020),QQQ,protective_put,-0.16817453204811958
+COVID crash (Feb–Mar 2020),QQQ,pspread_100_85_1m,0.046623028374334054
+COVID crash (Feb–Mar 2020),QQQ,pspread_95_75_3m,0.1688224103434259
+COVID crash (Feb–Mar 2020),QQQ,put_80_3m,1.1935687674018423
+COVID crash (Feb–Mar 2020),QQQ,put_90_1m,0.3310518036102504
+COVID crash (Feb–Mar 2020),QQQ,put_90_3m,0.41704574291801627
+COVID crash (Feb–Mar 2020),QQQ,put_90_3m_lowiv,0.05451101690169685
+COVID crash (Feb–Mar 2020),QQQ,put_90_3m_tp,0.0897269334481792
+COVID crash (Feb–Mar 2020),QQQ,put_atm_1m,0.06111946584823019
+COVID crash (Feb–Mar 2020),QQQ,short_put_90_1m,-0.10270764493548444
+COVID crash (Feb–Mar 2020),QQQ,stock,-0.2791658612460806
+COVID crash (Feb–Mar 2020),QQQ,straddle_1m,0.017890575909487786
+COVID crash (Feb–Mar 2020),QQQ,straddle_1m_lowiv,0.001953637582758212
+COVID crash (Feb–Mar 2020),QQQ,strangle_1m,0.2088952349529864
+COVID crash (Feb–Mar 2020),SMCI,collar,-0.12275047403971794
+COVID crash (Feb–Mar 2020),SMCI,covered_call,-0.3625251438197269
+COVID crash (Feb–Mar 2020),SMCI,iron_condor_1m,-0.080082880726218
+COVID crash (Feb–Mar 2020),SMCI,protective_put,-0.17888304902850588
+COVID crash (Feb–Mar 2020),SMCI,pspread_100_85_1m,0.01847834683888365
+COVID crash (Feb–Mar 2020),SMCI,pspread_95_75_3m,0.05439162490521562
+COVID crash (Feb–Mar 2020),SMCI,put_80_3m,0.21583452851542728
+COVID crash (Feb–Mar 2020),SMCI,put_90_1m,0.07039617015330839
+COVID crash (Feb–Mar 2020),SMCI,put_90_3m,0.1229076673022105
+COVID crash (Feb–Mar 2020),SMCI,put_90_3m_lowiv,0.026768266096167618
+COVID crash (Feb–Mar 2020),SMCI,put_90_3m_tp,0.07856119621961491
+COVID crash (Feb–Mar 2020),SMCI,put_atm_1m,0.03715627254593322
+COVID crash (Feb–Mar 2020),SMCI,short_put_90_1m,-0.23202190644160905
+COVID crash (Feb–Mar 2020),SMCI,stock,-0.39150942661716737
+COVID crash (Feb–Mar 2020),SMCI,straddle_1m,0.013158628768809128
+COVID crash (Feb–Mar 2020),SMCI,straddle_1m_lowiv,0.0
+COVID crash (Feb–Mar 2020),SMCI,strangle_1m,0.028942374081129978
+COVID crash (Feb–Mar 2020),SMH,collar,-0.14143573519701738
+COVID crash (Feb–Mar 2020),SMH,covered_call,-0.2860094968263034
+COVID crash (Feb–Mar 2020),SMH,iron_condor_1m,-0.05925253092320692
+COVID crash (Feb–Mar 2020),SMH,protective_put,-0.16861013653656448
+COVID crash (Feb–Mar 2020),SMH,pspread_100_85_1m,0.030796862005706173
+COVID crash (Feb–Mar 2020),SMH,pspread_95_75_3m,0.10090469469728156
+COVID crash (Feb–Mar 2020),SMH,put_80_3m,0.5249883638054675
+COVID crash (Feb–Mar 2020),SMH,put_90_1m,0.09772929065056728
+COVID crash (Feb–Mar 2020),SMH,put_90_3m,0.21087023122069184
+COVID crash (Feb–Mar 2020),SMH,put_90_3m_lowiv,0.02096634530930765
+COVID crash (Feb–Mar 2020),SMH,put_90_3m_tp,0.06278785582481443
+COVID crash (Feb–Mar 2020),SMH,put_atm_1m,0.042790854892119604
+COVID crash (Feb–Mar 2020),SMH,short_put_90_1m,-0.12459312750456819
+COVID crash (Feb–Mar 2020),SMH,stock,-0.31159275576539774
+COVID crash (Feb–Mar 2020),SMH,straddle_1m,0.011367818612801847
+COVID crash (Feb–Mar 2020),SMH,straddle_1m_lowiv,-9.782725193266262e-05
+COVID crash (Feb–Mar 2020),SMH,strangle_1m,0.04324549409107992
+COVID crash (Feb–Mar 2020),TSLA,collar,-0.10671571935647133
+COVID crash (Feb–Mar 2020),TSLA,covered_call,-0.39312112460124765
+COVID crash (Feb–Mar 2020),TSLA,iron_condor_1m,-0.0288250487760199
+COVID crash (Feb–Mar 2020),TSLA,protective_put,-0.4056955148824186
+COVID crash (Feb–Mar 2020),TSLA,pspread_100_85_1m,0.017331626555433837
+COVID crash (Feb–Mar 2020),TSLA,pspread_95_75_3m,0.02517342275912362
+COVID crash (Feb–Mar 2020),TSLA,put_80_3m,0.04359897840217876
+COVID crash (Feb–Mar 2020),TSLA,put_90_1m,0.025230587858885857
+COVID crash (Feb–Mar 2020),TSLA,put_90_3m,0.03642137824287065
+COVID crash (Feb–Mar 2020),TSLA,put_90_3m_lowiv,0.020171549127834594
+COVID crash (Feb–Mar 2020),TSLA,put_90_3m_tp,0.05776379560084298
+COVID crash (Feb–Mar 2020),TSLA,put_atm_1m,0.021842790945325333
+COVID crash (Feb–Mar 2020),TSLA,short_put_90_1m,-0.22873639874867216
+COVID crash (Feb–Mar 2020),TSLA,stock,-0.5266180987353893
+COVID crash (Feb–Mar 2020),TSLA,straddle_1m,-0.003647157243867972
+COVID crash (Feb–Mar 2020),TSLA,straddle_1m_lowiv,-0.00013799224210998498
+COVID crash (Feb–Mar 2020),TSLA,strangle_1m,-0.010851756628686553
+Current sell-off (from Oct 05 2026),AMD,collar,-0.10498368315490754
+Current sell-off (from Oct 05 2026),AMD,covered_call,-0.23081922780267855
+Current sell-off (from Oct 05 2026),AMD,iron_condor_1m,0.005509437019880191
+Current sell-off (from Oct 05 2026),AMD,protective_put,-0.257255467287887
+Current sell-off (from Oct 05 2026),AMD,pspread_100_85_1m,0.014828787017357084
+Current sell-off (from Oct 05 2026),AMD,pspread_95_75_3m,0.015596213931164907
+Current sell-off (from Oct 05 2026),AMD,put_80_3m,0.01841022083458877
+Current sell-off (from Oct 05 2026),AMD,put_90_1m,0.00952550893887008
+Current sell-off (from Oct 05 2026),AMD,put_90_3m,0.018212403603718192
+Current sell-off (from Oct 05 2026),AMD,put_90_3m_lowiv,0.00013710590088756805
+Current sell-off (from Oct 05 2026),AMD,put_90_3m_tp,0.018212403603718157
+Current sell-off (from Oct 05 2026),AMD,put_atm_1m,0.012269466569697513
+Current sell-off (from Oct 05 2026),AMD,short_put_90_1m,-0.0698899899362126
+Current sell-off (from Oct 05 2026),AMD,stock,-0.3458330209518451
+Current sell-off (from Oct 05 2026),AMD,straddle_1m,-0.003849529167090032
+Current sell-off (from Oct 05 2026),AMD,straddle_1m_lowiv,4.566865225357526e-05
+Current sell-off (from Oct 05 2026),AMD,strangle_1m,-0.006480620065319676
+Current sell-off (from Oct 05 2026),ARM,collar,-0.15463386876811966
+Current sell-off (from Oct 05 2026),ARM,covered_call,-0.327166064011091
+Current sell-off (from Oct 05 2026),ARM,iron_condor_1m,-0.0511844044352472
+Current sell-off (from Oct 05 2026),ARM,protective_put,-0.3103440605329671
+Current sell-off (from Oct 05 2026),ARM,pspread_100_85_1m,0.01531091314978071
+Current sell-off (from Oct 05 2026),ARM,pspread_95_75_3m,0.028271013694122354
+Current sell-off (from Oct 05 2026),ARM,put_80_3m,0.021572075610211582
+Current sell-off (from Oct 05 2026),ARM,put_90_1m,0.013714472639704742
+Current sell-off (from Oct 05 2026),ARM,put_90_3m,0.025578141427376164
+Current sell-off (from Oct 05 2026),ARM,put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),ARM,put_90_3m_tp,0.025877792344105144
+Current sell-off (from Oct 05 2026),ARM,put_atm_1m,0.014434932548044515
+Current sell-off (from Oct 05 2026),ARM,short_put_90_1m,-0.14556718630080465
+Current sell-off (from Oct 05 2026),ARM,stock,-0.46662264505093837
+Current sell-off (from Oct 05 2026),ARM,straddle_1m,-0.0028731960675865407
+Current sell-off (from Oct 05 2026),ARM,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),ARM,strangle_1m,-0.004038879944329282
+Current sell-off (from Oct 05 2026),AVGO,collar,-0.08419817460832092
+Current sell-off (from Oct 05 2026),AVGO,covered_call,-0.10731240195046066
+Current sell-off (from Oct 05 2026),AVGO,iron_condor_1m,0.02053406958873422
+Current sell-off (from Oct 05 2026),AVGO,protective_put,-0.12136688916381877
+Current sell-off (from Oct 05 2026),AVGO,pspread_100_85_1m,0.006913637914092575
+Current sell-off (from Oct 05 2026),AVGO,pspread_95_75_3m,0.022215931417827284
+Current sell-off (from Oct 05 2026),AVGO,put_80_3m,0.011886733474544926
+Current sell-off (from Oct 05 2026),AVGO,put_90_1m,-0.0024311030818230015
+Current sell-off (from Oct 05 2026),AVGO,put_90_3m,0.018047085779440374
+Current sell-off (from Oct 05 2026),AVGO,put_90_3m_lowiv,0.013191020005910584
+Current sell-off (from Oct 05 2026),AVGO,put_90_3m_tp,0.01973004808698941
+Current sell-off (from Oct 05 2026),AVGO,put_atm_1m,0.004254329503854605
+Current sell-off (from Oct 05 2026),AVGO,short_put_90_1m,0.006219907644755905
+Current sell-off (from Oct 05 2026),AVGO,stock,-0.16945745369369514
+Current sell-off (from Oct 05 2026),AVGO,straddle_1m,-0.006713676567569662
+Current sell-off (from Oct 05 2026),AVGO,straddle_1m_lowiv,-0.0005707411135661211
+Current sell-off (from Oct 05 2026),AVGO,strangle_1m,-0.01058336662705999
+Current sell-off (from Oct 05 2026),CRWV,collar,-0.1463169508785251
+Current sell-off (from Oct 05 2026),CRWV,covered_call,-0.42146028654054
+Current sell-off (from Oct 05 2026),CRWV,iron_condor_1m,-0.07034965953211944
+Current sell-off (from Oct 05 2026),CRWV,protective_put,-0.2516849169163063
+Current sell-off (from Oct 05 2026),CRWV,pspread_100_85_1m,0.017839549481419435
+Current sell-off (from Oct 05 2026),CRWV,pspread_95_75_3m,0.027057699334960907
+Current sell-off (from Oct 05 2026),CRWV,put_80_3m,0.057073572211001844
+Current sell-off (from Oct 05 2026),CRWV,put_90_1m,0.027801187375696583
+Current sell-off (from Oct 05 2026),CRWV,put_90_3m,0.04994036335606864
+Current sell-off (from Oct 05 2026),CRWV,put_90_3m_lowiv,0.03925077041713068
+Current sell-off (from Oct 05 2026),CRWV,put_90_3m_tp,0.05056921424259551
+Current sell-off (from Oct 05 2026),CRWV,put_atm_1m,0.02417807556281836
+Current sell-off (from Oct 05 2026),CRWV,short_put_90_1m,-0.23679815920269937
+Current sell-off (from Oct 05 2026),CRWV,stock,-0.5124728248106271
+Current sell-off (from Oct 05 2026),CRWV,straddle_1m,0.003123809532788658
+Current sell-off (from Oct 05 2026),CRWV,straddle_1m_lowiv,0.004806413189722826
+Current sell-off (from Oct 05 2026),CRWV,strangle_1m,0.004446449761558724
+Current sell-off (from Oct 05 2026),MU,collar,-0.1266311473422342
+Current sell-off (from Oct 05 2026),MU,covered_call,-0.27990634819281623
+Current sell-off (from Oct 05 2026),MU,iron_condor_1m,-0.03713978469186924
+Current sell-off (from Oct 05 2026),MU,protective_put,-0.26594012039152115
+Current sell-off (from Oct 05 2026),MU,pspread_100_85_1m,0.015330102994804497
+Current sell-off (from Oct 05 2026),MU,pspread_95_75_3m,0.023121630478118833
+Current sell-off (from Oct 05 2026),MU,put_80_3m,0.019526830456812923
+Current sell-off (from Oct 05 2026),MU,put_90_1m,0.009003557729510982
+Current sell-off (from Oct 05 2026),MU,put_90_3m,0.022581686170489484
+Current sell-off (from Oct 05 2026),MU,put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),MU,put_90_3m_tp,0.02258168617048952
+Current sell-off (from Oct 05 2026),MU,put_atm_1m,0.011760528453139124
+Current sell-off (from Oct 05 2026),MU,short_put_90_1m,-0.09898511721321239
+Current sell-off (from Oct 05 2026),MU,stock,-0.40797665936702915
+Current sell-off (from Oct 05 2026),MU,straddle_1m,-0.0034581899460885386
+Current sell-off (from Oct 05 2026),MU,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),MU,strangle_1m,-0.005203442318465336
+Current sell-off (from Oct 05 2026),NVDA,collar,-0.13985071486899378
+Current sell-off (from Oct 05 2026),NVDA,covered_call,-0.32253543136613994
+Current sell-off (from Oct 05 2026),NVDA,iron_condor_1m,-0.06419274502562507
+Current sell-off (from Oct 05 2026),NVDA,protective_put,-0.18348165190977264
+Current sell-off (from Oct 05 2026),NVDA,pspread_100_85_1m,0.0266599517128974
+Current sell-off (from Oct 05 2026),NVDA,pspread_95_75_3m,0.07194873893284404
+Current sell-off (from Oct 05 2026),NVDA,put_80_3m,0.16290506826727577
+Current sell-off (from Oct 05 2026),NVDA,put_90_1m,0.07170791303889297
+Current sell-off (from Oct 05 2026),NVDA,put_90_3m,0.11597521910692118
+Current sell-off (from Oct 05 2026),NVDA,put_90_3m_lowiv,0.025593615213022683
+Current sell-off (from Oct 05 2026),NVDA,put_90_3m_tp,0.07897640316992789
+Current sell-off (from Oct 05 2026),NVDA,put_atm_1m,0.03982002161249195
+Current sell-off (from Oct 05 2026),NVDA,short_put_90_1m,-0.16357782661671755
+Current sell-off (from Oct 05 2026),NVDA,stock,-0.34960230702166184
+Current sell-off (from Oct 05 2026),NVDA,straddle_1m,0.009069334120804837
+Current sell-off (from Oct 05 2026),NVDA,straddle_1m_lowiv,-0.00024742479241591207
+Current sell-off (from Oct 05 2026),NVDA,strangle_1m,0.022483698897178807
+Current sell-off (from Oct 05 2026),ORCL,collar,-0.08885577697583277
+Current sell-off (from Oct 05 2026),ORCL,covered_call,-0.15481676172968817
+Current sell-off (from Oct 05 2026),ORCL,iron_condor_1m,0.022387298953824013
+Current sell-off (from Oct 05 2026),ORCL,protective_put,-0.14891871638565274
+Current sell-off (from Oct 05 2026),ORCL,pspread_100_85_1m,0.013994419072858996
+Current sell-off (from Oct 05 2026),ORCL,pspread_95_75_3m,0.024559114864061815
+Current sell-off (from Oct 05 2026),ORCL,put_80_3m,0.015592892639619362
+Current sell-off (from Oct 05 2026),ORCL,put_90_1m,-0.00037429426836350856
+Current sell-off (from Oct 05 2026),ORCL,put_90_3m,0.023009549021917805
+Current sell-off (from Oct 05 2026),ORCL,put_90_3m_lowiv,0.02405816328795265
+Current sell-off (from Oct 05 2026),ORCL,put_90_3m_tp,0.028995044407172106
+Current sell-off (from Oct 05 2026),ORCL,put_atm_1m,0.00812958486420198
+Current sell-off (from Oct 05 2026),ORCL,short_put_90_1m,-0.0019235811665540162
+Current sell-off (from Oct 05 2026),ORCL,stock,-0.22862863493386817
+Current sell-off (from Oct 05 2026),ORCL,straddle_1m,-0.004153623162154919
+Current sell-off (from Oct 05 2026),ORCL,straddle_1m_lowiv,0.00018741347112664962
+Current sell-off (from Oct 05 2026),ORCL,strangle_1m,-0.008552793723937416
+Current sell-off (from Oct 05 2026),PLTR,collar,-0.06434587849806658
+Current sell-off (from Oct 05 2026),PLTR,covered_call,-0.08965793353822338
+Current sell-off (from Oct 05 2026),PLTR,iron_condor_1m,-0.013486056894176939
+Current sell-off (from Oct 05 2026),PLTR,protective_put,-0.12236652413998646
+Current sell-off (from Oct 05 2026),PLTR,pspread_100_85_1m,0.007927188884178548
+Current sell-off (from Oct 05 2026),PLTR,pspread_95_75_3m,0.008130223489538967
+Current sell-off (from Oct 05 2026),PLTR,put_80_3m,0.002469752744951579
+Current sell-off (from Oct 05 2026),PLTR,put_90_1m,0.0025873650896679904
+Current sell-off (from Oct 05 2026),PLTR,put_90_3m,0.005208562115848758
+Current sell-off (from Oct 05 2026),PLTR,put_90_3m_lowiv,-0.0007631701951189404
+Current sell-off (from Oct 05 2026),PLTR,put_90_3m_tp,0.006553569371776588
+Current sell-off (from Oct 05 2026),PLTR,put_atm_1m,0.004783707548897342
+Current sell-off (from Oct 05 2026),PLTR,short_put_90_1m,-0.014326002890635781
+Current sell-off (from Oct 05 2026),PLTR,stock,-0.14899684334798144
+Current sell-off (from Oct 05 2026),PLTR,straddle_1m,-0.0022925445589777236
+Current sell-off (from Oct 05 2026),PLTR,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),PLTR,strangle_1m,-0.004884677364511798
+Current sell-off (from Oct 05 2026),QQQ,collar,-0.11273740839174341
+Current sell-off (from Oct 05 2026),QQQ,covered_call,-0.1437423948402247
+Current sell-off (from Oct 05 2026),QQQ,iron_condor_1m,0.006155653407549121
+Current sell-off (from Oct 05 2026),QQQ,protective_put,-0.12624902098553903
+Current sell-off (from Oct 05 2026),QQQ,pspread_100_85_1m,0.022742708569926096
+Current sell-off (from Oct 05 2026),QQQ,pspread_95_75_3m,0.036804422233041596
+Current sell-off (from Oct 05 2026),QQQ,put_80_3m,0.04097478489503308
+Current sell-off (from Oct 05 2026),QQQ,put_90_1m,0.0025713853259156094
+Current sell-off (from Oct 05 2026),QQQ,put_90_3m,0.0355543326456684
+Current sell-off (from Oct 05 2026),QQQ,put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),QQQ,put_90_3m_tp,0.05404596937419366
+Current sell-off (from Oct 05 2026),QQQ,put_atm_1m,0.019830622356808346
+Current sell-off (from Oct 05 2026),QQQ,short_put_90_1m,-0.0025792596232344484
+Current sell-off (from Oct 05 2026),QQQ,stock,-0.15617566082339673
+Current sell-off (from Oct 05 2026),QQQ,straddle_1m,-0.0005936520470211886
+Current sell-off (from Oct 05 2026),QQQ,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),QQQ,strangle_1m,-0.006629872084186157
+Current sell-off (from Oct 05 2026),SMCI,collar,-0.12573853041500774
+Current sell-off (from Oct 05 2026),SMCI,covered_call,-0.3340869763651825
+Current sell-off (from Oct 05 2026),SMCI,iron_condor_1m,-0.05335775842507776
+Current sell-off (from Oct 05 2026),SMCI,protective_put,-0.3102685361529908
+Current sell-off (from Oct 05 2026),SMCI,pspread_100_85_1m,0.015931400897403677
+Current sell-off (from Oct 05 2026),SMCI,pspread_95_75_3m,0.020036303490159207
+Current sell-off (from Oct 05 2026),SMCI,put_80_3m,0.020662528149578495
+Current sell-off (from Oct 05 2026),SMCI,put_90_1m,0.011838176017705473
+Current sell-off (from Oct 05 2026),SMCI,put_90_3m,0.02222165189069644
+Current sell-off (from Oct 05 2026),SMCI,put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMCI,put_90_3m_tp,0.022221651890696477
+Current sell-off (from Oct 05 2026),SMCI,put_atm_1m,0.013691320310567513
+Current sell-off (from Oct 05 2026),SMCI,short_put_90_1m,-0.14720468778530074
+Current sell-off (from Oct 05 2026),SMCI,stock,-0.4762676184656084
+Current sell-off (from Oct 05 2026),SMCI,straddle_1m,-0.0027338695166859084
+Current sell-off (from Oct 05 2026),SMCI,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMCI,strangle_1m,-0.00422350750196582
+Current sell-off (from Oct 05 2026),SMH,collar,-0.1519003207868104
+Current sell-off (from Oct 05 2026),SMH,covered_call,-0.25702786725313664
+Current sell-off (from Oct 05 2026),SMH,iron_condor_1m,-0.005626681015557073
+Current sell-off (from Oct 05 2026),SMH,protective_put,-0.22087528746268625
+Current sell-off (from Oct 05 2026),SMH,pspread_100_85_1m,0.025538065735880217
+Current sell-off (from Oct 05 2026),SMH,pspread_95_75_3m,0.043506159291055155
+Current sell-off (from Oct 05 2026),SMH,put_80_3m,0.03196034301207986
+Current sell-off (from Oct 05 2026),SMH,put_90_1m,0.015623109588712355
+Current sell-off (from Oct 05 2026),SMH,put_90_3m,0.040881174193193294
+Current sell-off (from Oct 05 2026),SMH,put_90_3m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMH,put_90_3m_tp,0.05267269371543595
+Current sell-off (from Oct 05 2026),SMH,put_atm_1m,0.02040909919656648
+Current sell-off (from Oct 05 2026),SMH,short_put_90_1m,-0.06986782320110065
+Current sell-off (from Oct 05 2026),SMH,stock,-0.32678658532240795
+Current sell-off (from Oct 05 2026),SMH,straddle_1m,-0.0012052516105805569
+Current sell-off (from Oct 05 2026),SMH,straddle_1m_lowiv,0.0
+Current sell-off (from Oct 05 2026),SMH,strangle_1m,-0.004183727204140006
+Current sell-off (from Oct 05 2026),TSLA,collar,0.023494423097649677
+Current sell-off (from Oct 05 2026),TSLA,covered_call,0.06747861039025345
+Current sell-off (from Oct 05 2026),TSLA,iron_condor_1m,0.032992292797713464
+Current sell-off (from Oct 05 2026),TSLA,protective_put,-0.003709775319578834
+Current sell-off (from Oct 05 2026),TSLA,pspread_100_85_1m,-0.00890228588768365
+Current sell-off (from Oct 05 2026),TSLA,pspread_95_75_3m,-0.010482946915232353
+Current sell-off (from Oct 05 2026),TSLA,put_80_3m,-0.007398326764577724
+Current sell-off (from Oct 05 2026),TSLA,put_90_1m,-0.012341946833247826
+Current sell-off (from Oct 05 2026),TSLA,put_90_3m,-0.00862265268959015
+Current sell-off (from Oct 05 2026),TSLA,put_90_3m_lowiv,-0.0025148822961530955
+Current sell-off (from Oct 05 2026),TSLA,put_90_3m_tp,-0.007754527374195976
+Current sell-off (from Oct 05 2026),TSLA,put_atm_1m,-0.009974675449740237
+Current sell-off (from Oct 05 2026),TSLA,short_put_90_1m,0.04903783970711067
+Current sell-off (from Oct 05 2026),TSLA,stock,0.015710351746241538
+Current sell-off (from Oct 05 2026),TSLA,straddle_1m,-0.009205619896819789
+Current sell-off (from Oct 05 2026),TSLA,straddle_1m_lowiv,1.2683069236608616e-05
+Current sell-off (from Oct 05 2026),TSLA,strangle_1m,-0.013019506301446956
+DeepSeek + tariffs (Jan–Apr 2025),AMD,collar,-0.11512143623032094
+DeepSeek + tariffs (Jan–Apr 2025),AMD,covered_call,-0.3215326263996266
+DeepSeek + tariffs (Jan–Apr 2025),AMD,iron_condor_1m,-0.0031869156448899316
+DeepSeek + tariffs (Jan–Apr 2025),AMD,protective_put,-0.14271836777845032
+DeepSeek + tariffs (Jan–Apr 2025),AMD,pspread_100_85_1m,0.028608604107617917
+DeepSeek + tariffs (Jan–Apr 2025),AMD,pspread_95_75_3m,0.067785025737163
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_80_3m,0.16366332616006757
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_90_1m,0.04543305963997182
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_90_3m,0.11696451573705492
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_90_3m_lowiv,0.034048935912144654
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_90_3m_tp,0.07914316347580146
+DeepSeek + tariffs (Jan–Apr 2025),AMD,put_atm_1m,0.03582786674234112
+DeepSeek + tariffs (Jan–Apr 2025),AMD,short_put_90_1m,-0.12455310347932717
+DeepSeek + tariffs (Jan–Apr 2025),AMD,stock,-0.36435306808744705
+DeepSeek + tariffs (Jan–Apr 2025),AMD,straddle_1m,0.005489668243152975
+DeepSeek + tariffs (Jan–Apr 2025),AMD,straddle_1m_lowiv,0.0038518226664516868
+DeepSeek + tariffs (Jan–Apr 2025),AMD,strangle_1m,0.009213053028962062
+DeepSeek + tariffs (Jan–Apr 2025),ARM,collar,-0.16246730790381947
+DeepSeek + tariffs (Jan–Apr 2025),ARM,covered_call,-0.3890337802386456
+DeepSeek + tariffs (Jan–Apr 2025),ARM,iron_condor_1m,-0.046098091232076296
+DeepSeek + tariffs (Jan–Apr 2025),ARM,protective_put,-0.2685891810373649
+DeepSeek + tariffs (Jan–Apr 2025),ARM,pspread_100_85_1m,0.021675246698562894
+DeepSeek + tariffs (Jan–Apr 2025),ARM,pspread_95_75_3m,0.031367799450452184
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_80_3m,0.08098336587015471
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_90_1m,0.0392142055088017
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_90_3m,0.06557092208491014
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_90_3m_lowiv,0.04537401018790049
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_90_3m_tp,0.05436966221656911
+DeepSeek + tariffs (Jan–Apr 2025),ARM,put_atm_1m,0.030239697557167034
+DeepSeek + tariffs (Jan–Apr 2025),ARM,short_put_90_1m,-0.2189838576452081
+DeepSeek + tariffs (Jan–Apr 2025),ARM,stock,-0.4847502344334881
+DeepSeek + tariffs (Jan–Apr 2025),ARM,straddle_1m,0.002293928723931278
+DeepSeek + tariffs (Jan–Apr 2025),ARM,straddle_1m_lowiv,0.001546951017854715
+DeepSeek + tariffs (Jan–Apr 2025),ARM,strangle_1m,0.0015778709293431234
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,collar,-0.09528828532667712
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,covered_call,-0.282911267087759
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,iron_condor_1m,-0.012789229396431885
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,protective_put,-0.1861984024670436
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,pspread_100_85_1m,0.024817784494641146
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,pspread_95_75_3m,0.029722659951034017
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_80_3m,0.054094632699810186
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_90_1m,0.012686400002746193
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_90_3m,0.046686352852611655
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_90_3m_tp,0.04634313911700884
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,put_atm_1m,0.01850504393647478
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,short_put_90_1m,-0.07720247444046269
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,stock,-0.3486676593367581
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,straddle_1m,-0.0012740517362874156
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),AVGO,strangle_1m,-0.0032622427218252873
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,collar,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,covered_call,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,iron_condor_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,protective_put,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,pspread_100_85_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,pspread_95_75_3m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_80_3m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_90_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_90_3m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_90_3m_lowiv,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_90_3m_tp,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,put_atm_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,short_put_90_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,stock,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,straddle_1m,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,straddle_1m_lowiv,
+DeepSeek + tariffs (Jan–Apr 2025),CRWV,strangle_1m,
+DeepSeek + tariffs (Jan–Apr 2025),MU,collar,-0.13718247325795752
+DeepSeek + tariffs (Jan–Apr 2025),MU,covered_call,-0.2724475007590844
+DeepSeek + tariffs (Jan–Apr 2025),MU,iron_condor_1m,0.029128898858680804
+DeepSeek + tariffs (Jan–Apr 2025),MU,protective_put,-0.19005661681033464
+DeepSeek + tariffs (Jan–Apr 2025),MU,pspread_100_85_1m,0.0030042139815458753
+DeepSeek + tariffs (Jan–Apr 2025),MU,pspread_95_75_3m,0.025121527982990572
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_80_3m,0.06704119391906624
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_90_1m,0.014879420049295877
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_90_3m,0.05118302528700913
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_90_3m_tp,0.04873417472175407
+DeepSeek + tariffs (Jan–Apr 2025),MU,put_atm_1m,0.01142496641911697
+DeepSeek + tariffs (Jan–Apr 2025),MU,short_put_90_1m,-0.1330172988331521
+DeepSeek + tariffs (Jan–Apr 2025),MU,stock,-0.37404295706266455
+DeepSeek + tariffs (Jan–Apr 2025),MU,straddle_1m,-0.00807840414688216
+DeepSeek + tariffs (Jan–Apr 2025),MU,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),MU,strangle_1m,-0.009392416659609755
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,collar,-0.16611336051805783
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,covered_call,-0.28590521253960327
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,iron_condor_1m,0.011395233342947161
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,protective_put,-0.19225539450993537
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,pspread_100_85_1m,0.02660684530793934
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,pspread_95_75_3m,0.04740053865902689
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_80_3m,0.06755588835349897
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_90_1m,0.013798332627155685
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_90_3m,0.0614971152132263
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_90_3m_lowiv,0.0029094411097747787
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_90_3m_tp,0.05806622741953948
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,put_atm_1m,0.02234979563530353
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,short_put_90_1m,-0.061896587018139
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,stock,-0.3458167230486288
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,straddle_1m,-0.0017380572576705534
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,straddle_1m_lowiv,-4.872158320637233e-05
+DeepSeek + tariffs (Jan–Apr 2025),NVDA,strangle_1m,-0.005035883870017188
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,collar,-0.16629599645306428
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,covered_call,-0.27236103365555875
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,iron_condor_1m,0.008780549190585876
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,protective_put,-0.19435089420708554
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,pspread_100_85_1m,0.0259382766255967
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,pspread_95_75_3m,0.06918961374984327
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_80_3m,0.14784794481288951
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_90_1m,0.02884862810842595
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_90_3m,0.10815251117953908
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_90_3m_lowiv,0.02002193319998437
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_90_3m_tp,0.0688394787892131
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,put_atm_1m,0.02751723932963255
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,short_put_90_1m,-0.0847393504401787
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,stock,-0.3323323087493325
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,straddle_1m,-0.003001598120638097
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,straddle_1m_lowiv,-0.004748986831226641
+DeepSeek + tariffs (Jan–Apr 2025),ORCL,strangle_1m,-0.017839362722663572
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,collar,0.009310393970568372
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,covered_call,-0.10593621733719642
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,iron_condor_1m,-0.044890422192640146
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,protective_put,0.09844703841248052
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,pspread_100_85_1m,0.0009767878763391256
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,pspread_95_75_3m,-0.0010281124204517174
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_80_3m,0.03529278433466023
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_90_1m,0.01338195227558089
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_90_3m,0.0219393114718316
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_90_3m_lowiv,-0.00070538918154916
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_90_3m_tp,0.022008165539044812
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,put_atm_1m,0.006925295754315172
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,short_put_90_1m,-0.07759065008233412
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,stock,-0.02101802470946142
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,straddle_1m,0.014827476828681737
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,straddle_1m_lowiv,0.008084689597567099
+DeepSeek + tariffs (Jan–Apr 2025),PLTR,strangle_1m,0.03441286251124531
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,collar,-0.12397902845414643
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,covered_call,-0.21150453924832036
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,iron_condor_1m,-0.012152667859514108
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,protective_put,-0.12619041679604714
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,pspread_100_85_1m,0.03683630224868216
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,pspread_95_75_3m,0.08554561978858456
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_80_3m,0.276404044718764
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_90_1m,0.05395304701253493
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_90_3m,0.14893879001904525
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_90_3m_tp,0.07675358852726251
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,put_atm_1m,0.04077213995032795
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,short_put_90_1m,-0.043726997021195785
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,stock,-0.21770717144089377
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,straddle_1m,0.007238716110457523
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),QQQ,strangle_1m,0.0242191768985404
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,collar,-0.02153960956412492
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,covered_call,-0.09910620977589354
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,iron_condor_1m,-0.08287998972048609
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,protective_put,0.09346897728531027
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,pspread_100_85_1m,-0.0012924365850528103
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,pspread_95_75_3m,-0.013439045334858877
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_80_3m,0.016767783792032465
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_90_1m,-0.0018107884820408964
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_90_3m,0.010907007448942938
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_90_3m_tp,0.010907007448942928
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,put_atm_1m,-0.000345016352288103
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,short_put_90_1m,-0.03765622780360215
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,stock,-0.05088299223895784
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,straddle_1m,0.003341125226328224
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMCI,strangle_1m,0.005145886804623367
+DeepSeek + tariffs (Jan–Apr 2025),SMH,collar,-0.15895103518570267
+DeepSeek + tariffs (Jan–Apr 2025),SMH,covered_call,-0.2867382922299096
+DeepSeek + tariffs (Jan–Apr 2025),SMH,iron_condor_1m,0.0066429974439507255
+DeepSeek + tariffs (Jan–Apr 2025),SMH,protective_put,-0.189065580539399
+DeepSeek + tariffs (Jan–Apr 2025),SMH,pspread_100_85_1m,0.02680385356169591
+DeepSeek + tariffs (Jan–Apr 2025),SMH,pspread_95_75_3m,0.0477158155937649
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_80_3m,0.10298572435704215
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_90_1m,0.02338209105627979
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_90_3m,0.07581647268137989
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_90_3m_tp,0.061647585604409035
+DeepSeek + tariffs (Jan–Apr 2025),SMH,put_atm_1m,0.027669758618058454
+DeepSeek + tariffs (Jan–Apr 2025),SMH,short_put_90_1m,-0.07074294978864791
+DeepSeek + tariffs (Jan–Apr 2025),SMH,stock,-0.32565113730993067
+DeepSeek + tariffs (Jan–Apr 2025),SMH,straddle_1m,-0.001040242950884298
+DeepSeek + tariffs (Jan–Apr 2025),SMH,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),SMH,strangle_1m,-0.0003055371882170146
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,collar,-0.1417473718271886
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,covered_call,-0.39759222453673376
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,iron_condor_1m,-0.05223810960116732
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,protective_put,-0.2015385658756
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,pspread_100_85_1m,0.028774792833453515
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,pspread_95_75_3m,0.04730068380137421
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_80_3m,0.08013692841478139
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_90_1m,0.033570355478750216
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_90_3m,0.07152717205613406
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_90_3m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_90_3m_tp,0.06596092414603708
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,put_atm_1m,0.031238875823006378
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,short_put_90_1m,-0.18728321278703713
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,stock,-0.46200107186720096
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,straddle_1m,0.004894787427619131
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,straddle_1m_lowiv,0.0
+DeepSeek + tariffs (Jan–Apr 2025),TSLA,strangle_1m,0.007795500118434963
